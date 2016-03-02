@@ -359,6 +359,7 @@ GameObject:
   - 61: {fileID: 1048096366}
   - 50: {fileID: 1048096369}
   - 114: {fileID: 1048096370}
+  - 114: {fileID: 1048096371}
   m_Layer: 0
   m_Name: character_temp
   m_TagString: Player
@@ -417,7 +418,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1048096365}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.93, y: 1.39, z: 0}
+  m_LocalPosition: {x: 1.28, y: -1.89, z: 0}
   m_LocalScale: {x: 0.9590081, y: 0.9765761, z: 1}
   m_Children:
   - {fileID: 1049247718}
@@ -457,6 +458,18 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &1048096371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1048096365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcdf42132ca357a4e9081bdd3a997aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forgingExp: 0
 --- !u!1 &1049247717
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,6 +743,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waiting: {fileID: 184132, guid: 9ffcee93e5656b34dbeb7359a6fb0845, type: 2}
   showCase: {fileID: 137856, guid: e60fe5061dcc7584099b0039ee1b45da, type: 2}
+  selecting: {fileID: 192566, guid: cea4cdc28c1ea974f984cf7c3cacafed, type: 2}
+  selecting2: {fileID: 0}
+  weapon_1: {fileID: 156198, guid: e4c85e3440ba7114d8fed3e909f32787, type: 2}
+  weapon_2: {fileID: 190724, guid: d071c213dc934e0488f4ad355051260c, type: 2}
 --- !u!1 &1704248792
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - selecting
+  - rock
+  - grass
+  - wood
   layers:
   - Default
   - TransparentFX
@@ -47,12 +51,12 @@ TagManager:
   - name: Forging
     uniqueID: 2921956711
     locked: 0
-  - name: ShowCase
-    uniqueID: 2284274813
-    locked: 0
   - name: character
     uniqueID: 2991024301
     locked: 0
   - name: forground
     uniqueID: 2089338287
     locked: 1
+  - name: ShowCase
+    uniqueID: 2284274813
+    locked: 0

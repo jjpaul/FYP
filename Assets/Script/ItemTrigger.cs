@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class ItemTrigger : MonoBehaviour {
 
+    public CharacterAttributes character;
+
     public GameObject place_01;
     public GameObject place_02;
     public GameObject place_03;
@@ -15,6 +17,7 @@ public class ItemTrigger : MonoBehaviour {
     static bool selected_E;
     private bool selected;
     private bool chk;
+    private bool isForging;
     static bool rock;
     static bool grass;
     static bool wood;
@@ -71,24 +74,33 @@ public class ItemTrigger : MonoBehaviour {
             rock = false;
             grass = false;
             wood = false;
-            SceneManager.LoadScene(3);
+            isForging = false;
+            SceneManager.LoadScene(1);
         }
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            if (rock && wood)
+            if (rock && wood && !isForging)
             {
+                Debug.Log("Forging exp ++");
+                character.setForgingExp(10);
+                character.Update();
                 GameObject productPf = Instantiate(product, new Vector3(place_03.transform.position.x, place_03.transform.position.y, 0.0f), Quaternion.identity) as GameObject;
+                isForging = true;
             }
-            if (wood && grass)
+            if (wood && grass && !isForging)
             {
+                Debug.Log("Forging exp ++");
+                character.setForgingExp(10);
+                character.Update();
                 GameObject productPf = Instantiate(product_2, new Vector3(place_03.transform.position.x, place_03.transform.position.y, 0.0f), Quaternion.identity) as GameObject;
+                isForging = true;
             }
         }
 
         if (Input.GetKeyDown(KeyCode.L))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(0);
         }
     }
 

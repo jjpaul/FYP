@@ -19,7 +19,7 @@ public class ForgingWorkDesk : MonoBehaviour {
         if (UIReady && Input.GetKeyDown(KeyCode.K))
         {
             Debug.Log("forging UI");
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(1);
             
         }
     }

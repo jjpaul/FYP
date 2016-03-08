@@ -8,6 +8,7 @@ TagManager:
   - Inventory
   - ItemDatabase
   - Canvas
+  - MSlot
   layers:
   - Default
   - TransparentFX

@@ -36,8 +36,22 @@ public class ForgingSlot : MonoBehaviour , IPointerDownHandler{
             if(inventory.theDraggedItem.itemType == Item.ItemType.Material)
             {
                  item = inventory.theDraggedItem;
-                 inventory.closeDraggedItem();            
+                 inventory.closeDraggedItem();   
             }           
         }
     }
+
+    public void forge()
+    {
+            for (int i = 101; i < 125; i++)
+            {
+                if (this.item.itemID == i)
+                {
+                    this.item.itemValue--;
+                    Debug.Log(this.item.itemName + ": " + this.item.itemValue);
+                    this.item = gameObject.AddComponent<Item>();
+                }
+            }
+        }
+    
 }

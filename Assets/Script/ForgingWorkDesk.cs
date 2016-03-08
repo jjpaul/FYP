@@ -16,7 +16,7 @@ public class ForgingWorkDesk : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (UIReady && Input.GetKeyDown(KeyCode.K))
+        if (UIReady && Input.GetMouseButtonDown(0))
         {
             Debug.Log("forging UI");
             SceneManager.LoadScene(1);

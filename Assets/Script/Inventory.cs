@@ -11,6 +11,18 @@ public class Inventory : MonoBehaviour {
     ItemDatabase database;
 
     public GameObject tooltip;
+    public GameObject draggedItemGameObject;
+    public bool draggingItem = false;
+    public Item theDraggedItem;
+
+    void Update()
+    {
+        if (draggingItem)
+        {
+            Vector3 position = (Input.mousePosition - GameObject.FindGameObjectWithTag("Canvas").GetComponent<RectTransform>().localPosition);
+            draggedItemGameObject.GetComponent<RectTransform>().localPosition = new Vector3(position.x + 15, position.y - 15, position.z);
+        }
+    }
     
     public void showTooltip(Vector3 toolPosition, Item item)
     {
@@ -18,6 +30,20 @@ public class Inventory : MonoBehaviour {
 
         tooltip.transform.GetChild(0).GetComponent<Text>().text = item.itemName;
         tooltip.transform.GetChild(2).GetComponent<Text>().text = item.itemDesc;
+    }
+
+    public void showDraggedItem(Item item)
+    {
+        draggedItemGameObject.SetActive(true);
+        theDraggedItem = item;
+        draggingItem = true;
+        draggedItemGameObject.GetComponent<Image>().sprite = item.itemIcon;
+    }
+
+    public void closeDraggedItem()
+    {
+        draggingItem = false;
+        draggedItemGameObject.SetActive(false);
     }
 
     public void closeTooltip()
@@ -54,15 +80,11 @@ public class Inventory : MonoBehaviour {
             }
         }
 
-        addItem(4);
-        addItem(5);
-
-        addItem(1);
-        addItem(2);
-        addItem(3);
-        addItem(3);
-
-
+        //add Item
+        for (int i = 101; i < 125; i++)
+        {
+            addItem(i);
+        }
     }
 
 

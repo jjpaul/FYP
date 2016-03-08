@@ -4,15 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-  - selecting
-  - rock
-  - grass
-  - wood
-=======
-  - ItemDatabase
+  - New Tag
   - Inventory
->>>>>>> Invertory_System_Test
+  - ItemDatabase
+  - Canvas
   layers:
   - Default
   - TransparentFX
@@ -22,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
+  - 
   - 
   - 
   - 
@@ -50,18 +45,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: background
-    uniqueID: 1309858697
-    locked: 1
-  - name: Forging
-    uniqueID: 2921956711
+  - name: Back
+    uniqueID: 824855449
     locked: 0
-  - name: character
-    uniqueID: 2991024301
+  - name: Character
+    uniqueID: 2124483165
     locked: 0
-  - name: forground
-    uniqueID: 2089338287
-    locked: 1
-  - name: ShowCase
-    uniqueID: 2284274813
+  - name: Front
+    uniqueID: 2768175623
     locked: 0

@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler {
+public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IDragHandler {
 
     public Item item;
     Image itemImage;
@@ -18,7 +18,7 @@ public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
         itemAmount = gameObject.transform.GetChild(1).GetComponent<Text>();
         inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
         itemImage = gameObject.transform.GetChild(0).GetComponent<Image>();
-	}
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -38,12 +38,13 @@ public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
         }
         else
         {
-            itemImage.enabled = false;
+         //   itemImage.enabled = false;
         }
     }
 
     public void OnPointerDown(PointerEventData data)
     {
+
         if (inventory.Items[slotNumber].itemType == Item.ItemType.Consumable)
         {
             inventory.Items[slotNumber].itemValue--;
@@ -69,6 +70,14 @@ public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
         if (inventory.Items[slotNumber].itemName != null)
         {
             inventory.closeTooltip();
+        }
+    }
+
+    public void OnDrag(PointerEventData data)
+    {
+        if (inventory.Items[slotNumber].itemName != null)
+        {
+            inventory.showDraggedItem(inventory.Items[slotNumber]);
         }
     }
 }

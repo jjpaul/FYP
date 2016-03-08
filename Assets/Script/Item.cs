@@ -10,15 +10,17 @@ public class Item : MonoBehaviour {
     public int itemValue;
     public int itemPower;
     public ItemType itemType;
+  //  public string itemDiscv;
 
     public enum ItemType
     {
+        None,
         Weapon,
         Material,
         Consumable
     }
 
-    public Item(string name, int id, string desc,int power, int value, ItemType type)
+    public Item(string name, int id, string desc,int power, int value, ItemType type /*, string discv*/)
     {
         itemName = name;
         itemID = id;
@@ -27,6 +29,7 @@ public class Item : MonoBehaviour {
         itemValue = value;
         itemType = type;
         itemIcon = Resources.Load<Sprite>("" + name);
+   //     itemDiscv = discv;
     }
 
     public Item()

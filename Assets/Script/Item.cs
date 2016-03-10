@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Item : MonoBehaviour {
+public class Item {
 
     public string itemName;
     public int itemID;
     public string itemDesc;
     public Sprite itemIcon;
+    public Sprite itemDefaultIcon;
     public int itemValue;
     public int itemPower;
     public ItemType itemType;
-  //  public string itemDiscv;
+    public bool itemDiscv;
 
     public enum ItemType
     {
@@ -20,7 +21,7 @@ public class Item : MonoBehaviour {
         Consumable
     }
 
-    public Item(string name, int id, string desc,int power, int value, ItemType type /*, string discv*/)
+    public Item(string name, int id, string desc,int power, int value, ItemType type , bool discv)
     {
         itemName = name;
         itemID = id;
@@ -28,8 +29,9 @@ public class Item : MonoBehaviour {
         itemPower = power;
         itemValue = value;
         itemType = type;
+        itemDefaultIcon = Resources.Load<Sprite>("Unknown");
         itemIcon = Resources.Load<Sprite>("" + name);
-   //     itemDiscv = discv;
+        itemDiscv = discv;
     }
 
     public Item()

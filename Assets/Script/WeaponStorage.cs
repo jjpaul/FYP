@@ -1,18 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class ShowCase : MonoBehaviour
-{
-
+public class WeaponStorage : MonoBehaviour {
 
     public GameObject waiting;
     private GameObject waitingPrefab;
     private bool UIReady;
-    public static bool dragable;
 
-    public GameObject weaponStorage;
-    public GameObject showCase;
+    public GameObject panel;
     // Use this for initialization
     void Start()
     {
@@ -25,15 +22,11 @@ public class ShowCase : MonoBehaviour
 
         if (UIReady && Input.GetMouseButtonDown(0))
         {
-            weaponStorage.SetActive(true);
-            showCase.SetActive(true);
-            dragable = true;
+            panel.SetActive(true);
         }
         if (!UIReady || Input.GetMouseButtonDown(1))
         {
-            weaponStorage.SetActive(false);
-            showCase.SetActive(false);
-            dragable = false;
+            panel.SetActive(false);
         }
     }
 

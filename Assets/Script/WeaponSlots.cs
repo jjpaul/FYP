@@ -3,45 +3,39 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IDragHandler {
+public class WeaponSlots : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler, IDragHandler
+{
 
     public Item item;
     Image itemImage;
     public int slotNumber;
-    Inventory inventory;
-
+    WeaponInventory inventory;
     Text itemAmount;
 
-
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         itemAmount = gameObject.transform.GetChild(1).GetComponent<Text>();
-        inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
+        inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<WeaponInventory>();
         itemImage = gameObject.transform.GetChild(0).GetComponent<Image>();
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
-        if(inventory.Items[slotNumber].itemName != null)
+        if (inventory.Items[slotNumber].itemName != null)
         {
             item = inventory.Items[slotNumber];
             itemImage.enabled = true;
-            if (inventory.Items[slotNumber].itemValue == 0 && !inventory.Items[slotNumber].itemDiscv)
-                itemImage.sprite = inventory.Items[slotNumber].itemDefaultIcon;
-            else
-            {
-                itemImage.sprite = inventory.Items[slotNumber].itemIcon;
-                itemAmount.enabled = true;
-                itemAmount.text = "" + inventory.Items[slotNumber].itemValue;
-            }
-
+            itemImage.sprite = inventory.Items[slotNumber].itemIcon;
+            itemAmount.enabled = true;
+            itemAmount.text = "" + inventory.Items[slotNumber].itemValue;
         }
-        else if(inventory.Items[slotNumber].itemValue == 0)
-        {
+     //   else if (inventory.Items[slotNumber].itemValue == 0)
+     //   {
             //itemImage.enabled = true;
-           // itemImage.sprite = inventory.Items[slotNumber].itemDefaultIcon;
-        }
+            // itemImage.sprite = inventory.Items[slotNumber].itemDefaultIcon;
+     //   }
     }
 
     public void OnPointerDown(PointerEventData data)
@@ -54,7 +48,7 @@ public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
             {
                 inventory.Items[slotNumber] = new Item();
                 itemAmount.enabled = false;
-                inventory.tooltip.SetActive(false);
+                //inventory.tooltip.SetActive(false);
             }
         }
     }
@@ -63,7 +57,7 @@ public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
     {
         if (inventory.Items[slotNumber].itemName != null)
         {
-            inventory.showTooltip(inventory.Slots[slotNumber].GetComponent<RectTransform>().localPosition, inventory.Items[slotNumber]);
+            //inventory.showTooltip(inventory.Slots[slotNumber].GetComponent<RectTransform>().localPosition, inventory.Items[slotNumber]);
         }
     }
 
@@ -71,15 +65,16 @@ public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
     {
         if (inventory.Items[slotNumber].itemName != null)
         {
-            inventory.closeTooltip();
+            //inventory.closeTooltip();
         }
     }
 
     public void OnDrag(PointerEventData data)
     {
-        if (inventory.Items[slotNumber].itemName != null)
+        if (inventory.Items[slotNumber].itemName != null && ShowCase.dragable)
         {
             inventory.showDraggedItem(inventory.Items[slotNumber]);
         }
     }
 }
+

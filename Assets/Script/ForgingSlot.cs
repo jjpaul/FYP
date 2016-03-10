@@ -12,7 +12,7 @@ public class ForgingSlot : MonoBehaviour , IPointerDownHandler{
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
-        item = gameObject.AddComponent<Item>();
+        item = new Item();
     }
 
     void Update()
@@ -49,7 +49,7 @@ public class ForgingSlot : MonoBehaviour , IPointerDownHandler{
                 {
                     this.item.itemValue--;
                     Debug.Log(this.item.itemName + ": " + this.item.itemValue);
-                    this.item = gameObject.AddComponent<Item>();
+                    this.item = new Item();
                 }
             }
         }

@@ -8,6 +8,7 @@ public class WeaponInventory : MonoBehaviour {
     public List<Item> Items = new List<Item>();
     public GameObject slots;
     ItemDatabase database;
+    TempSelling tempSelling;
 
     public GameObject draggedItemGameObject;
     public bool draggingItem = false;
@@ -27,7 +28,7 @@ public class WeaponInventory : MonoBehaviour {
 
     public void showDraggedItem(Item item)
     {
-        if(item.itemValue ==0)
+        if(item.itemValue ==0 || !checkDupliItem(item))
         {
             draggingItem = false;
         }
@@ -51,7 +52,7 @@ public class WeaponInventory : MonoBehaviour {
     void Start()
     {
         int slotamount = 0;
-
+        tempSelling = GameObject.FindGameObjectWithTag("TempSell").GetComponent<TempSelling>();
         database = GameObject.FindGameObjectWithTag("ItemDatabase").GetComponent<ItemDatabase>();
         for (int i = 1; i < 7; i++)
         {
@@ -128,5 +129,17 @@ public class WeaponInventory : MonoBehaviour {
                 break;
             }
         }
+    }
+
+    bool checkDupliItem(Item item)
+    {
+        for(int i = 0; i < 8; i++)
+        {
+            if (tempSelling.tempItem[i].itemName == item.itemName)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 }

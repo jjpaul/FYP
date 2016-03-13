@@ -5,28 +5,42 @@ using UnityEngine.EventSystems;
 
 public class SellingSlot : MonoBehaviour, IPointerDownHandler
 {
-
     WeaponInventory inventory;
     public Item item;
     Sprite temp;
-   // public int index;
+
+    TempSelling tempSelling;
+    public int index;
 
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<WeaponInventory>();
+        tempSelling = GameObject.FindGameObjectWithTag("TempSell").GetComponent<TempSelling>();
         item = new Item();
     }
 
     void Update()
     {
-        if (item.itemType != Item.ItemType.None)
+        if (tempSelling.tempItem[index].itemName != null)
+        {
+            item = tempSelling.tempItem[index];
+        }
+        if (tempSelling.tempItem[index].itemName != null)
         {
             transform.GetChild(0).GetComponent<Image>().enabled = true;
-            transform.GetChild(0).GetComponent<Image>().sprite = item.itemIcon;
+            transform.GetChild(0).GetComponent<Image>().sprite = tempSelling.tempItem[index].itemIcon;
         }
         else
         {
-            transform.GetChild(0).GetComponent<Image>().enabled = false;
+            if (item.itemType != Item.ItemType.None)
+            {
+                transform.GetChild(0).GetComponent<Image>().enabled = true;
+                transform.GetChild(0).GetComponent<Image>().sprite = item.itemIcon;
+            }
+            else
+            {
+                transform.GetChild(0).GetComponent<Image>().enabled = false;
+            }
         }
 
     }
@@ -37,9 +51,10 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
         {
             if (inventory.theDraggedItem.itemType == Item.ItemType.Weapon)
             {
-                if (item.itemName == null)
+                if (item.itemName == null )
                 {
                     item = inventory.theDraggedItem;
+                    tempSelling.tempItem[index] = item;
                     item.itemValue--;
                     inventory.closeDraggedItem();
                 }
@@ -47,6 +62,7 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
                 {
                     item.itemValue++;
                     item = inventory.theDraggedItem;
+                    tempSelling.tempItem[index] = item;
                     item.itemValue--;
                     inventory.closeDraggedItem();
                 }
@@ -59,5 +75,8 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
         item.itemValue++;
         //   transform.GetComponent<Image>().sprite = item.itemDefaultIcon;
         this.item = new Item();
+        this.tempSelling.tempItem[index] = new Item();
     }
 }
+
+

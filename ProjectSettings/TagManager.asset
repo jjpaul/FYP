@@ -9,6 +9,9 @@ TagManager:
   - ItemDatabase
   - Canvas
   - MSlot
+  - TempSell
+  - Customer
+  - Event
   layers:
   - Default
   - TransparentFX

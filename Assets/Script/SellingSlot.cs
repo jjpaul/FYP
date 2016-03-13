@@ -17,6 +17,7 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
         inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<WeaponInventory>();
         tempSelling = GameObject.FindGameObjectWithTag("TempSell").GetComponent<TempSelling>();
         item = new Item();
+        transform.GetChild(1).GetComponent<Image>().enabled = false;
     }
 
     void Update()
@@ -43,6 +44,12 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
             }
         }
 
+        if(item.itemValue <= 0 && item.itemName != null)
+        {
+            transform.GetChild(1).GetComponent<Image>().enabled = true;
+            Debug.Log("sold out");
+        }
+
     }
 
     public void OnPointerDown(PointerEventData data)
@@ -55,15 +62,15 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
                 {
                     item = inventory.theDraggedItem;
                     tempSelling.tempItem[index] = item;
-                    item.itemValue--;
+                 //   item.itemValue--;
                     inventory.closeDraggedItem();
                 }
                 else
                 {
-                    item.itemValue++;
+                  //  item.itemValue++;
                     item = inventory.theDraggedItem;
                     tempSelling.tempItem[index] = item;
-                    item.itemValue--;
+                 //   item.itemValue--;
                     inventory.closeDraggedItem();
                 }
             }

@@ -11,6 +11,7 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
 
     TempSelling tempSelling;
     public int index;
+    public bool soldOut;
 
     void Start()
     {
@@ -47,7 +48,11 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
         if(item.itemValue <= 0 && item.itemName != null)
         {
             transform.GetChild(1).GetComponent<Image>().enabled = true;
-            Debug.Log("sold out");
+         //   Debug.Log(item.itemName + "sold out");
+        }
+        else
+        {
+            soldOut = false;
         }
 
     }

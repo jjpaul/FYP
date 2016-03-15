@@ -150,14 +150,22 @@ public class Customer : MonoBehaviour
     {
         for(int i = 0; i < 8; i++)
         {
-            if(tempSelling.tempItem[i].itemName != null)
+            if(tempSelling.tempItem[i].itemValue > 0)
             {
                 item = tempSelling.tempItem[i];    
                 break;
             }
+            else
+            {
+               
+            }
         }
         character.Asset += item.itemCost;
         item.itemValue--;
+        if(item.itemValue <= 0 && item.itemName != null)
+        {
+            Debug.Log(item.itemName + " sold out");
+        }
         isBuy = false;
     }
 }

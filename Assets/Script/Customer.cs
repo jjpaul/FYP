@@ -19,6 +19,9 @@ public class Customer : MonoBehaviour
     public bool exit = false;
 
     GameObject eventNotic;
+    GameObject eventNotic_love;
+    GameObject eventNotic_frustrated;
+
     TempSelling tempSelling;
     Item item;
     CharacterAttributes character;
@@ -36,8 +39,12 @@ public class Customer : MonoBehaviour
         character = GameObject.FindGameObjectWithTag("CharacterAttribute").GetComponent<CharacterAttributes>();
         tempSelling = GameObject.FindGameObjectWithTag("TempSell").GetComponent<TempSelling>();
         eventNotic = GameObject.FindGameObjectWithTag("Event");
+        eventNotic_love = GameObject.FindGameObjectWithTag("Event_love");
+        eventNotic_frustrated = GameObject.FindGameObjectWithTag("Event_frustrated");
         item = new Item();
         eventNotic.SetActive(false);
+        eventNotic_love.SetActive(false);
+        eventNotic_frustrated.SetActive(false);
     }
 
     //Update is called once per frame
@@ -152,16 +159,18 @@ public class Customer : MonoBehaviour
         {
             if(tempSelling.tempItem[i].itemValue > 0)
             {
-                item = tempSelling.tempItem[i];    
+                item = tempSelling.tempItem[i];
+                eventNotic_love.SetActive(true);
                 break;
             }
             else
             {
-               
+                eventNotic_frustrated.SetActive(true);
             }
         }
         character.Asset += item.itemCost;
         item.itemValue--;
+
         if(item.itemValue <= 0 && item.itemName != null)
         {
             Debug.Log(item.itemName + " sold out");

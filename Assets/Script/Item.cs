@@ -12,6 +12,7 @@ public class Item {
     public int itemPower;
     public ItemType itemType;
     public bool itemDiscv;
+    public int itemCost;
 
     public enum ItemType
     {
@@ -21,7 +22,7 @@ public class Item {
         Consumable
     }
 
-    public Item(string name, int id, string desc,int power, int value, ItemType type , bool discv)
+    public Item(string name, int id, string desc,int power, int value, ItemType type , bool discv, int cost)
     {
         itemName = name;
         itemID = id;
@@ -32,6 +33,7 @@ public class Item {
         itemDefaultIcon = Resources.Load<Sprite>("Unknown");
         itemIcon = Resources.Load<Sprite>("" + name);
         itemDiscv = discv;
+        itemCost = cost;
     }
 
     public Item()

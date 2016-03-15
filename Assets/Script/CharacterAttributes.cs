@@ -1,29 +1,53 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class CharacterAttributes : MonoBehaviour {
 
-    public int forgingExp ;
-    private int preForgingExp = 1;
-    static int forgingLevel = 1;
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	public void Update () {
-	    if(forgingExp == preForgingExp * 100)
-        {
-            forgingLevel++;
-            preForgingExp = forgingExp;
-            Debug.Log("forging level: " + forgingLevel);
-        }
-	}
+    public int StoreExp;
+    public int ForgingExp;
+    public int StoreLv;
+    public int ForgingLv;
 
-    public void setForgingExp(int forgingExp)
+    public int SNeededExp;
+    public int FNeededExp;
+
+    public int Asset;
+
+    void Start()
     {
-        this.forgingExp += forgingExp;
-        Debug.Log("exp add:" + forgingExp);
+        StoreExp = 0;
+        ForgingExp = 0;
+        StoreLv = 1;
+        ForgingLv = 1;
+        SNeededExp = 300;
+        FNeededExp = 500;
+        Asset = 5000;
+    }
+
+    void Update()
+    {
+        if(StoreExp >= SNeededExp)
+        {
+            StoreLv++;
+            SNeededExp = SNeededExp * 3;
+        }
+
+        if(ForgingExp >= FNeededExp)
+        {
+            ForgingLv++;
+            FNeededExp = FNeededExp * 2;
+        }
+    }
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
+
+        if (FindObjectsOfType(GetType()).Length > 1)
+        {
+            Destroy(gameObject);
+        }
     }
 }

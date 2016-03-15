@@ -21,6 +21,7 @@ public class Customer : MonoBehaviour
     GameObject eventNotic;
     TempSelling tempSelling;
     Item item;
+    CharacterAttributes character;
 
 
 
@@ -32,7 +33,7 @@ public class Customer : MonoBehaviour
         pos3 = Random.Range(-1f, 2f);
         initPos = transform.position.x;
 
-
+        character = GameObject.FindGameObjectWithTag("CharacterAttribute").GetComponent<CharacterAttributes>();
         tempSelling = GameObject.FindGameObjectWithTag("TempSell").GetComponent<TempSelling>();
         eventNotic = GameObject.FindGameObjectWithTag("Event");
         item = new Item();
@@ -70,7 +71,7 @@ public class Customer : MonoBehaviour
                 eventNotic.SetActive(true);
                 StartCoroutine(waiting());
                 third = false;
-                isBuy = true;
+              //  isBuy = true;
             }
         }
         else if(!first && !second && ! third && pass && !exit)
@@ -81,6 +82,7 @@ public class Customer : MonoBehaviour
             }
             if (transform.position.x >= 3.8f)
             {
+                isBuy = true;
                 exit = true;
                 StartCoroutine(waiting());                
             }
@@ -90,10 +92,6 @@ public class Customer : MonoBehaviour
             transform.position -= new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
         }
 
-        if(transform.position.x < initPos)
-        {
-            Destroy(this);
-        }
 
         if (isBuy)
         {
@@ -158,7 +156,7 @@ public class Customer : MonoBehaviour
                 break;
             }
         }
-
+        character.Asset += item.itemCost;
         item.itemValue--;
         isBuy = false;
     }

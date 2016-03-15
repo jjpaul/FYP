@@ -8,11 +8,13 @@ public class WeaponForgeSlot : MonoBehaviour {
     public Item item;
     Inventory inventory;
     ItemDatabase database;
+    CharacterAttributes character;
 
     void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<Inventory>();
         database = GameObject.FindGameObjectWithTag("ItemDatabase").GetComponent<ItemDatabase>();
+        character = GameObject.FindGameObjectWithTag("CharacterAttribute").GetComponent<CharacterAttributes>();
     }
 
     public void weaponForge()
@@ -23,6 +25,7 @@ public class WeaponForgeSlot : MonoBehaviour {
                 {
                     item = database.items[i];
                     database.items[i].itemValue++;
+                    character.ForgingExp = character.ForgingExp + 100;
                 }
             }
             transform.GetChild(0).GetComponent<Image>().enabled = true;

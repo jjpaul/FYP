@@ -12,6 +12,8 @@ TagManager:
   - TempSell
   - Customer
   - Event
+  - Flag
+  - CharacterAttribute
   layers:
   - Default
   - TransparentFX

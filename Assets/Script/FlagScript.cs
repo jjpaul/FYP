@@ -9,9 +9,12 @@ public class FlagScript : MonoBehaviour {
     public Sprite Open;
     public Sprite Close;
 
+    CustomerController customer;
+
     public bool IsOpen;
 	// Use this for initialization
 	void Start () {
+        customer = GameObject.FindGameObjectWithTag("CustomerController").GetComponent<CustomerController>();
         GetComponent<SpriteRenderer>().sprite = Close;
         IsOpen = false;
     }

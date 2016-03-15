@@ -6,8 +6,12 @@ public class CustomerController : MonoBehaviour {
     public GameObject customer;
     GameObject c1;
     FlagScript flag;
+    public bool HvCustomer;
+
+    public int count;
     // Use this for initialization
     void Start () {
+        count = 0;
         flag = GameObject.FindGameObjectWithTag("Flag").GetComponent<FlagScript>();
 	}
 
@@ -25,7 +29,7 @@ public class CustomerController : MonoBehaviour {
             }
             else
             {
-                c1 = Instantiate(customer, customer.transform.position, Quaternion.identity) as GameObject;
+                c1 = Instantiate(customer, customer.transform.position, Quaternion.identity) as GameObject;               
             }
         }
 
@@ -33,6 +37,7 @@ public class CustomerController : MonoBehaviour {
         {
             if (c1.transform.position.x < -9)
             {
+               // HvCustomer = false;
                 Destroy(c1);
             }
         }

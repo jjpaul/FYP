@@ -84,10 +84,14 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
 
     public void init()
     {
-        item.itemValue++;
+        if (transform.GetChild(1).GetComponent<Image>().enabled == false)
+        {
+            item.itemValue++;
+        }
         //   transform.GetComponent<Image>().sprite = item.itemDefaultIcon;
         this.item = new Item();
         this.tempSelling.tempItem[index] = new Item();
+        transform.GetChild(1).GetComponent<Image>().enabled = false;
     }
 }
 

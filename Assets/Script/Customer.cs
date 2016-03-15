@@ -17,6 +17,7 @@ public class Customer : MonoBehaviour
     public bool pass = false;
     public bool isBuy = false;
     public bool exit = false;
+    public bool love = false;
 
     GameObject eventNotic;
     GameObject eventNotic_love;
@@ -25,6 +26,7 @@ public class Customer : MonoBehaviour
     TempSelling tempSelling;
     Item item;
     CharacterAttributes character;
+    CustomerController customer;
 
 
 
@@ -36,6 +38,8 @@ public class Customer : MonoBehaviour
         pos3 = Random.Range(-1f, 2f);
         initPos = transform.position.x;
 
+
+        customer = GameObject.FindGameObjectWithTag("CustomerController").GetComponent<CustomerController>();
         character = GameObject.FindGameObjectWithTag("CharacterAttribute").GetComponent<CharacterAttributes>();
         tempSelling = GameObject.FindGameObjectWithTag("TempSell").GetComponent<TempSelling>();
         eventNotic = GameObject.FindGameObjectWithTag("Event");
@@ -56,7 +60,7 @@ public class Customer : MonoBehaviour
             if (transform.position.x > pos1)
             {
                 first = false;
-                second = true;
+                second = true;                
                 StartCoroutine(waiting());
             }
         }
@@ -112,6 +116,7 @@ public class Customer : MonoBehaviour
     {
         if (transform.position.x < pos1)
         {
+            customer.HvCustomer = true;
             transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
             temp = pos1;
         }
@@ -160,20 +165,29 @@ public class Customer : MonoBehaviour
             if(tempSelling.tempItem[i].itemValue > 0)
             {
                 item = tempSelling.tempItem[i];
-                eventNotic_love.SetActive(true);
+                love = true;                
+                customer.count++;
+                character.Asset += item.itemCost;
+                item.itemValue--;
+                if (item.itemValue <= 0 && item.itemName != null)
+                {
+                    Debug.Log(item.itemName + " sold out");
+                }
                 break;
             }
             else
             {
-                eventNotic_frustrated.SetActive(true);
+                love = false;
             }
         }
-        character.Asset += item.itemCost;
-        item.itemValue--;
 
-        if(item.itemValue <= 0 && item.itemName != null)
+        if (love)
         {
-            Debug.Log(item.itemName + " sold out");
+            eventNotic_love.SetActive(true);
+        }
+        else
+        {
+            eventNotic_frustrated.SetActive(true);
         }
         isBuy = false;
     }

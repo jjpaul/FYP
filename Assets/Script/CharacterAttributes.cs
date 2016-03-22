@@ -56,7 +56,7 @@ public class CharacterAttributes : MonoBehaviour {
 
         AdvenLv = 1;
         AdvenEXP = 0;
-        AdvenEXP = 2000;
+        ANeededExp = 2000;
 
 
         HP = 1000;

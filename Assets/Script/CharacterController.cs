@@ -10,6 +10,7 @@ public class CharacterController : MonoBehaviour {
     public float tempSpeed;
     public float jumpSpeed = 8.0f;
 
+    public bool IsHurt;
     public bool jumped = false;
     public bool grounded = false;
     public Transform groundCheck;
@@ -19,11 +20,13 @@ public class CharacterController : MonoBehaviour {
     public Vector3 initPos;
 
     FlagScript Flag;
+    CharacterAttributes character;
 
 	// Use this for initialization
 	void Start () {
-
+        IsHurt = false;
         animator = GetComponent<Animator>();
+        character = GameObject.FindGameObjectWithTag("CharacterAttribute").GetComponent<CharacterAttributes>();
 
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
@@ -47,8 +50,9 @@ public class CharacterController : MonoBehaviour {
             jump();
             walk();
             attack();
-           // dodge();
+            dodge();
             run();
+            hurt();
         }        
     }
 	
@@ -79,7 +83,7 @@ public class CharacterController : MonoBehaviour {
 
     void dodge()
     {
-        animator.SetBool("dodge", true);
+        animator.SetBool("dodge", false);
     }
 
     void run()
@@ -132,6 +136,16 @@ public class CharacterController : MonoBehaviour {
         else
         {
             animator.SetBool("walk", false);
+        }
+    }
+
+    void hurt()
+    {
+        if(IsHurt)
+            animator.SetBool("hurt", true);
+        else
+        {
+            animator.SetBool("hurt", false);
         }
     }
 }

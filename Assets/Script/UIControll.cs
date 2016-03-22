@@ -16,7 +16,7 @@ public class UIControll : MonoBehaviour {
     void Start()
     {
         character = GameObject.FindGameObjectWithTag("CharacterAttribute").GetComponent<CharacterAttributes>();
-        customer = GameObject.FindGameObjectWithTag("CustomerController").GetComponent<CustomerController>();
+   //     customer = GameObject.FindGameObjectWithTag("CustomerController").GetComponent<CustomerController>();
     }
 
     void Update()
@@ -29,7 +29,7 @@ public class UIControll : MonoBehaviour {
 
         //Finance
         FinancePanel.transform.GetChild(0).GetChild(0).GetComponent<Text>().text = character.Asset.ToString();
-        FinancePanel.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = customer.count.ToString();
+   //     FinancePanel.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = customer.count.ToString();
 
         //Attribute
         AttriPanel.transform.GetChild(0).GetChild(0).GetComponent<Text>().text = character.CharLv.ToString();

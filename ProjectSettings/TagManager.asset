@@ -17,6 +17,8 @@ TagManager:
   - Event_love
   - Event_frustrated
   - CustomerController
+  - UIController
+  - UI
   layers:
   - Default
   - TransparentFX

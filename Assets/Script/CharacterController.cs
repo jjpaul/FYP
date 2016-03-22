@@ -67,7 +67,7 @@ public class CharacterController : MonoBehaviour {
 
     void attack()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             animator.SetBool("attack", true);
         }

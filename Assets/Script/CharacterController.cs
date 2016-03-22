@@ -1,12 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class CharacterController : MonoBehaviour {
 
-    public float speed = 4.0f;
-    public float jumpSpeed = 10.0f;
+    private Animator animator;
 
-    bool grounded = false;
+    public float speed = 4.0f;
+    public float tempSpeed;
+    public float jumpSpeed = 8.0f;
+
+    public bool jumped = false;
+    public bool grounded = false;
     public Transform groundCheck;
     float groundradius = 0.2f;
     public LayerMask whatIsGround;
@@ -17,35 +22,116 @@ public class CharacterController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Flag = GameObject.FindGameObjectWithTag("Flag").GetComponent<FlagScript>();
-        initPos = transform.position;
+
+        animator = GetComponent<Animator>();
+
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            Flag = GameObject.FindGameObjectWithTag("Flag").GetComponent<FlagScript>();
+            initPos = transform.position;
+        }
     }
 
-    void Update ()
+    void Update()
     {
-        if (Flag.IsOpen)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
         {
-            transform.position = initPos;
+            if (Flag.IsOpen)
+            {
+                transform.position = initPos;
+            }
         }
+
+        if(SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            jump();
+            walk();
+            attack();
+           // dodge();
+            run();
+        }        
     }
 	
 	void FixedUpdate () {
 
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundradius, whatIsGround);
-
-        if (grounded && Input.GetKeyDown(KeyCode.W) && !Flag.IsOpen)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
         {
+            if (!Flag.IsOpen)
+            {
+                jump();
+                walk();
+            }
+        }
+    }
+
+    void attack()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            animator.SetBool("attack", true);
+        }
+        else
+        {
+            animator.SetBool("attack", false);
+        }
+    }
+
+    void dodge()
+    {
+        animator.SetBool("dodge", true);
+    }
+
+    void run()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            if (Input.GetKey(KeyCode.A))
+            {
+                animator.SetBool("run", true);
+                transform.position -= new Vector3(speed *1.5f * Time.deltaTime, 0.0f, 0.0f);
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                animator.SetBool("run", true);
+                transform.position += new Vector3(speed *1.5f * Time.deltaTime, 0.0f, 0.0f);
+            }
+        }
+        else
+        {
+            animator.SetBool("run", false);
+        }
+    }
+
+    void jump()
+    {
+        if (grounded && Input.GetKeyDown(KeyCode.W))
+        {
+            animator.SetBool("jump", true);
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
+            jumped = true;
         }
+        else
+        {
+            animator.SetBool("jump", false);
+        }
+    }
 
-        if (Input.GetKey(KeyCode.A) && !Flag.IsOpen)
+    void walk()
+    {
+        if (Input.GetKey(KeyCode.A))
         {
-            transform.position -= new Vector3(speed * Time.deltaTime,0.0f,0.0f);
+            animator.SetBool("walk", true);
+            transform.position -= new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
         }
-        if (Input.GetKey(KeyCode.D) && !Flag.IsOpen)
+        else if (Input.GetKey(KeyCode.D))
         {
+            animator.SetBool("walk", true);
             transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
         }
-
+        else
+        {
+            animator.SetBool("walk", false);
+        }
     }
 }

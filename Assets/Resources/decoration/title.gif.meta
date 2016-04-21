@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 961381abdc0607d4ab26226f62b58fe6
-timeCreated: 1461278238
+guid: f0cfe7788f0949944b07c65ce0916a45
+timeCreated: 1461277851
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: SF_Inside_B_0
-    21300002: SF_Inside_B_1
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -32,7 +30,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -40,7 +38,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,39 +49,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: SF_Inside_B_0
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 640
-        width: 54
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 22, y: -62}
-        - {x: 22, y: 64}
-        - {x: -27, y: 64}
-        - {x: -27, y: -62}
-    - name: SF_Inside_B_1
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 576
-        width: 47
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21.5, y: 22}
-        - {x: -23.5, y: 20}
-        - {x: -23.5, y: -28}
-        - {x: 22.5, y: -28}
-        - {x: 22.5, y: 20}
-        - {x: 19.5, y: 22}
+    sprites: []
     outline: []
   spritePackingTag: 
   userData: 

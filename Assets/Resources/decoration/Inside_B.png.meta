@@ -1,12 +1,17 @@
 fileFormatVersion: 2
 guid: 2df900aebfe6f9a43ac866ca8b632ed9
-timeCreated: 1460908198
+timeCreated: 1461278871
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Inside_B_0
     21300002: Inside_B_1
     21300004: Inside_B_2
+    21300006: Inside_B_3
+    21300008: Inside_B_4
+    21300010: Inside_B_5
+    21300012: Inside_B_6
+    21300014: Inside_B_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -102,6 +107,85 @@ TextureImporter:
         - {x: -26, y: -55.5}
         - {x: 25, y: -55.5}
         - {x: 25, y: 55.5}
+    - name: Inside_B_3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 527
+        width: 93
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 23.5}
+        - {x: -46.5, y: -23.5}
+        - {x: 45.5, y: -23.5}
+        - {x: 45.5, y: 23.5}
+    - name: Inside_B_4
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 525
+        width: 90
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -23}
+        - {x: 42, y: 23}
+        - {x: -45, y: 23}
+        - {x: -45, y: -23}
+    - name: Inside_B_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 384
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -192, y: 47.5}
+        - {x: -192, y: -47.5}
+        - {x: 192, y: -47.5}
+        - {x: 192, y: 47.5}
+    - name: Inside_B_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 48}
+        - {x: -24, y: -48}
+        - {x: 24, y: -48}
+        - {x: 24, y: 48}
+    - name: Inside_B_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -24, y: 19}
+        - {x: -24, y: -15}
+        - {x: -14, y: -24}
+        - {x: 21, y: -24}
+        - {x: 24, y: -15}
+        - {x: 24, y: 24}
+        - {x: 21, y: 26}
     outline: []
   spritePackingTag: 
   userData: 

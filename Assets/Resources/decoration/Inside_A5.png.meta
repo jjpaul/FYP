@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: eaa64308452460f49bf37fed311c26bb
-timeCreated: 1460908946
+timeCreated: 1461278677
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,6 +9,10 @@ TextureImporter:
     21300004: Inside_A5_2
     21300006: Inside_A5_3
     21300008: Inside_A5_4
+    21300010: Inside_A5_5
+    21300012: Inside_A5_6
+    21300014: Inside_A5_7
+    21300016: Inside_A5_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -122,6 +126,62 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+    - name: Inside_A5_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 48}
+        - {x: -24, y: -48}
+        - {x: 24, y: -48}
+        - {x: 24, y: 48}
+    - name: Inside_A5_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 241
+        width: 192
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96, y: 23.5}
+        - {x: -96, y: -23.5}
+        - {x: 96, y: -23.5}
+        - {x: 96, y: 23.5}
+    - name: Inside_A5_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 360
+        width: 192
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Inside_A5_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline:
+      - - {x: -24, y: 48}
+        - {x: -24, y: -48}
+        - {x: 24, y: -48}
+        - {x: 24, y: 48}
     outline: []
   spritePackingTag: 
   userData: 

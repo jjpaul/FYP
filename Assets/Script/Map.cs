@@ -17,4 +17,9 @@ public class Map : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
+    public void toStoreScene()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 }

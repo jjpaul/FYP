@@ -48,7 +48,7 @@ public class monsterMove : MonoBehaviour {
     void chase()
     {
         animator.SetBool("walk", true);
-        if(Vector3.Distance(transform.position,player.position) <= 4)
+        if(Vector3.Distance(transform.position,player.position) <= 8)
         {
             if (transform.position.x > player.position.x)
             {

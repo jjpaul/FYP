@@ -25,6 +25,7 @@ TagManager:
   - Bag
   - weaponStorageUI
   - Boarder
+  - IM
   layers:
   - Default
   - TransparentFX

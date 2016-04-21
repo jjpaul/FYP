@@ -8,6 +8,7 @@ public class Bag : MonoBehaviour {
     public List<GameObject> Slots = new List<GameObject>();
     public List<Item> Items = new List<Item>();
     public GameObject slots;
+    ItemManager IM;
     ItemDatabase database;
 
     int x = -90;
@@ -15,6 +16,7 @@ public class Bag : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+        IM = GameObject.FindGameObjectWithTag("IM").GetComponent<ItemManager>();
         int slotamount = 0;
         database = GameObject.FindGameObjectWithTag("ItemDatabase").GetComponent<ItemDatabase>();
         for(int i = 1; i < 6; i++)
@@ -41,7 +43,17 @@ public class Bag : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+	    for(int i = 0; i < IM.itemID.Length; i++)
+        {
+            Debug.Log("add3!");
+            if (IM.itemID[i] != 0)
+            {
+                Debug.Log("add4!");
+                addItem(IM.itemID[i]);
+                IM.itemID[i] = 0;
+                break;
+            }
+        }
 	}
 
     public void addItem(int id)

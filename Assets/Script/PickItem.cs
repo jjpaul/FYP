@@ -5,11 +5,13 @@ public class PickItem : MonoBehaviour {
 
     // Use this for initialization
     monsterMove monster;
-    Bag bag;
+    ItemManager IM;
+   // Bag bag;
 
 	void Start () {
         monster = GameObject.FindGameObjectWithTag("enemy").GetComponent<monsterMove>();
-        bag = GameObject.FindGameObjectWithTag("Bag").GetComponent<Bag>();
+        //   bag = GameObject.FindGameObjectWithTag("Bag").GetComponent<Bag>();
+        IM = GameObject.FindGameObjectWithTag("IM").GetComponent<ItemManager>();
 	}
 	
 	// Update is called once per frame
@@ -23,7 +25,9 @@ public class PickItem : MonoBehaviour {
         {
             if(monster.HP <= 0)
             {
-                bag.addItem(monster.itemId);
+                //  bag.addItem(monster.itemId);
+                Debug.Log("Add+"+ monster.itemId);
+                IM.add(monster.itemId);
                 monster.Dead();
             }
         }

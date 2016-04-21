@@ -35,8 +35,10 @@ public class ForgingSlot : MonoBehaviour , IPointerDownHandler{
         {
             if(inventory.theDraggedItem.itemType == Item.ItemType.Material)
             {
+                item.itemValue++;
                  item = inventory.theDraggedItem;
-                 inventory.closeDraggedItem();   
+                 inventory.closeDraggedItem();
+                item.itemValue--;
             }           
         }
     }
@@ -47,7 +49,7 @@ public class ForgingSlot : MonoBehaviour , IPointerDownHandler{
             {
                 if (this.item.itemID == i)
                 {
-                    this.item.itemValue--;
+                 //   this.item.itemValue--;
                     Debug.Log(this.item.itemName + ": " + this.item.itemValue);
                     this.item = new Item();
                 }

@@ -11,6 +11,7 @@ public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
     Inventory inventory;
 
     public bool CanForge;
+    int amount;
 
     Text itemAmount;
 
@@ -45,7 +46,7 @@ public class SlotScript : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
            // itemImage.sprite = inventory.Items[slotNumber].itemDefaultIcon;
         }
 
-        if (inventory.Items[slotNumber].itemValue == 0)
+        if (inventory.Items[slotNumber].itemValue <= 0)
         {
             CanForge = false;
         }

@@ -10,10 +10,26 @@ public class SceneChange : MonoBehaviour {
     {
         UI = GameObject.FindGameObjectWithTag("UIController").GetComponent<UIControll>();
     }
-    public void toBattleScene()
+
+    public void toMapScene()
     {
         UI.closeExitPanel();
+        SceneManager.LoadScene(3);
+    }
+
+    public void toEastScene()
+    {
         SceneManager.LoadScene(2);
+    }
+
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
+
+        if (FindObjectsOfType(GetType()).Length > 1)
+        {
+            Destroy(gameObject);
+        }
     }
 
 }

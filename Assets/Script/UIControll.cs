@@ -9,6 +9,7 @@ public class UIControll : MonoBehaviour {
     public GameObject FinancePanel;
     public GameObject ExitPanel;
     public GameObject AttriPanel;
+    public GameObject BagPanel;
 
     CharacterAttributes character;
     CustomerController customer;
@@ -89,6 +90,16 @@ public class UIControll : MonoBehaviour {
     public void closeAttPanel()
     {
         AttriPanel.SetActive(false);
+    }
+
+    public void showBagPanel()
+    {
+        BagPanel.SetActive(true);
+    }
+
+    public void closeBagPanel()
+    {
+        BagPanel.SetActive(false);
     }
 
     void Awake()

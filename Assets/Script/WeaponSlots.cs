@@ -11,6 +11,7 @@ public class WeaponSlots : MonoBehaviour, IPointerDownHandler, IPointerEnterHand
     public int slotNumber;
     WeaponInventory inventory;
     Text itemAmount;
+   // Bag bag;
 
     // Use this for initialization
     void Start()
@@ -18,6 +19,7 @@ public class WeaponSlots : MonoBehaviour, IPointerDownHandler, IPointerEnterHand
         itemAmount = gameObject.transform.GetChild(1).GetComponent<Text>();
         inventory = GameObject.FindGameObjectWithTag("Inventory").GetComponent<WeaponInventory>();
         itemImage = gameObject.transform.GetChild(0).GetComponent<Image>();
+      //  bag = GameObject.FindGameObjectWithTag("Bag").GetComponent<Bag>();
     }
 
     // Update is called once per frame
@@ -31,25 +33,32 @@ public class WeaponSlots : MonoBehaviour, IPointerDownHandler, IPointerEnterHand
             itemAmount.enabled = true;
             itemAmount.text = "" + inventory.Items[slotNumber].itemValue;
         }
-     //   else if (inventory.Items[slotNumber].itemValue == 0)
-     //   {
-            //itemImage.enabled = true;
-            // itemImage.sprite = inventory.Items[slotNumber].itemDefaultIcon;
-     //   }
+        if (inventory.Items[slotNumber].itemValue == 0)
+        {
+            itemImage.enabled = false;
+            itemAmount.enabled = false;
+            this.item = new Item();
+        //    itemImage.sprite = inventory.Items[slotNumber].itemDefaultIcon;
+        }
     }
 
     public void OnPointerDown(PointerEventData data)
     {
-
-        if (inventory.Items[slotNumber].itemType == Item.ItemType.Consumable)
+        Debug.Log("666");
+        //if (inventory.Items[slotNumber].itemType == Item.ItemType.Consumable)
+        //{
+        //    inventory.Items[slotNumber].itemValue--;
+        //    if (inventory.Items[slotNumber].itemValue == 0)
+        //    {
+        //        inventory.Items[slotNumber] = new Item();
+        //        itemAmount.enabled = false;
+        //        //inventory.tooltip.SetActive(false);
+        //    }
+        //}
+        if (inventory.Items[slotNumber].itemName != null && !ShowCase.dragable)
         {
-            inventory.Items[slotNumber].itemValue--;
-            if (inventory.Items[slotNumber].itemValue == 0)
-            {
-                inventory.Items[slotNumber] = new Item();
-                itemAmount.enabled = false;
-                //inventory.tooltip.SetActive(false);
-            }
+          //  bag.addItem(this.item.itemID);
+         //   this.item.itemValue--;
         }
     }
 

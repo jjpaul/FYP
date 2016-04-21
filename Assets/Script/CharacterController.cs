@@ -83,7 +83,7 @@ public class CharacterController : MonoBehaviour {
 
     void dodge()
     {
-        animator.SetBool("dodge", false);
+  //      animator.SetBool("dodge", false);
     }
 
     void run()
@@ -92,18 +92,18 @@ public class CharacterController : MonoBehaviour {
         {
             if (Input.GetKey(KeyCode.A))
             {
-                animator.SetBool("run", true);
+    //            animator.SetBool("run", true);
                 transform.position -= new Vector3(speed *1.5f * Time.deltaTime, 0.0f, 0.0f);
             }
             else if (Input.GetKey(KeyCode.D))
             {
-                animator.SetBool("run", true);
+     //           animator.SetBool("run", true);
                 transform.position += new Vector3(speed *1.5f * Time.deltaTime, 0.0f, 0.0f);
             }
         }
         else
         {
-            animator.SetBool("run", false);
+    //        animator.SetBool("run", false);
         }
     }
 
@@ -111,13 +111,13 @@ public class CharacterController : MonoBehaviour {
     {
         if (grounded && Input.GetKeyDown(KeyCode.W))
         {
-            animator.SetBool("jump", true);
+            //        animator.SetBool("jump", true);
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
             jumped = true;
         }
         else
         {
-            animator.SetBool("jump", false);
+     //       animator.SetBool("jump", false);
         }
     }
 
@@ -125,12 +125,15 @@ public class CharacterController : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.A))
         {
+
             animator.SetBool("walk", true);
+            this.gameObject.GetComponent<SpriteRenderer>().flipX = false;
             transform.position -= new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
         }
         else if (Input.GetKey(KeyCode.D))
         {
             animator.SetBool("walk", true);
+            this.gameObject.GetComponent<SpriteRenderer>().flipX = true;
             transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
         }
         else
@@ -141,11 +144,13 @@ public class CharacterController : MonoBehaviour {
 
     void hurt()
     {
-        if(IsHurt)
-            animator.SetBool("hurt", true);
+        if (IsHurt)
+        {
+            //         animator.SetBool("hurt", true);
+        }
         else
         {
-            animator.SetBool("hurt", false);
+            //        animator.SetBool("hurt", false);
         }
     }
 }

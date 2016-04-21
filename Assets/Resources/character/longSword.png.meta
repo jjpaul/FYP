@@ -1,0 +1,3018 @@
+fileFormatVersion: 2
+guid: d7d6e2fcec6f72549ba2319f84a9382c
+timeCreated: 1461259812
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: longSword_0
+    21300002: longSword_1
+    21300004: longSword_2
+    21300006: longSword_3
+    21300008: longSword_4
+    21300010: longSword_5
+    21300012: longSword_6
+    21300014: longSword_7
+    21300016: longSword_8
+    21300018: longSword_9
+    21300020: longSword_10
+    21300022: longSword_11
+    21300024: longSword_12
+    21300026: longSword_13
+    21300028: longSword_14
+    21300030: longSword_15
+    21300032: longSword_16
+    21300034: longSword_17
+    21300036: longSword_18
+    21300038: longSword_19
+    21300040: longSword_20
+    21300042: longSword_21
+    21300044: longSword_22
+    21300046: longSword_23
+    21300048: longSword_24
+    21300050: longSword_25
+    21300052: longSword_26
+    21300054: longSword_27
+    21300056: longSword_28
+    21300058: longSword_29
+    21300060: longSword_30
+    21300062: longSword_31
+    21300064: longSword_32
+    21300066: longSword_33
+    21300068: longSword_34
+    21300070: longSword_35
+    21300072: longSword_36
+    21300074: longSword_37
+    21300076: longSword_38
+    21300078: longSword_39
+    21300080: longSword_40
+    21300082: longSword_41
+    21300084: longSword_42
+    21300086: longSword_43
+    21300088: longSword_44
+    21300090: longSword_45
+    21300092: longSword_46
+    21300094: longSword_47
+    21300096: longSword_48
+    21300098: longSword_49
+    21300100: longSword_50
+    21300102: longSword_51
+    21300104: longSword_52
+    21300106: longSword_53
+    21300108: longSword_54
+    21300110: longSword_55
+    21300112: longSword_56
+    21300114: longSword_57
+    21300116: longSword_58
+    21300118: longSword_59
+    21300120: longSword_60
+    21300122: longSword_61
+    21300124: longSword_62
+    21300126: longSword_63
+    21300128: longSword_64
+    21300130: longSword_65
+    21300132: longSword_66
+    21300134: longSword_67
+    21300136: longSword_68
+    21300138: longSword_69
+    21300140: longSword_70
+    21300142: longSword_71
+    21300144: longSword_72
+    21300146: longSword_73
+    21300148: longSword_74
+    21300150: longSword_75
+    21300152: longSword_76
+    21300154: longSword_77
+    21300156: longSword_78
+    21300158: longSword_79
+    21300160: longSword_80
+    21300162: longSword_81
+    21300164: longSword_82
+    21300166: longSword_83
+    21300168: longSword_84
+    21300170: longSword_85
+    21300172: longSword_86
+    21300174: longSword_87
+    21300176: longSword_88
+    21300178: longSword_89
+    21300180: longSword_90
+    21300182: longSword_91
+    21300184: longSword_92
+    21300186: longSword_93
+    21300188: longSword_94
+    21300190: longSword_95
+    21300192: longSword_96
+    21300194: longSword_97
+    21300196: longSword_98
+    21300198: longSword_99
+    21300200: longSword_100
+    21300202: longSword_101
+    21300204: longSword_102
+    21300206: longSword_103
+    21300208: longSword_104
+    21300210: longSword_105
+    21300212: longSword_106
+    21300214: longSword_107
+    21300216: longSword_108
+    21300218: longSword_109
+    21300220: longSword_110
+    21300222: longSword_111
+    21300224: longSword_112
+    21300226: longSword_113
+    21300228: longSword_114
+    21300230: longSword_115
+    21300232: longSword_116
+    21300234: longSword_117
+    21300236: longSword_118
+    21300238: longSword_119
+    21300240: longSword_120
+    21300242: longSword_121
+    21300244: longSword_122
+    21300246: longSword_123
+    21300248: longSword_124
+    21300250: longSword_125
+    21300252: longSword_126
+    21300254: longSword_127
+    21300256: longSword_128
+    21300258: longSword_129
+    21300260: longSword_130
+    21300262: longSword_131
+    21300264: longSword_132
+    21300266: longSword_133
+    21300268: longSword_134
+    21300270: longSword_135
+    21300272: longSword_136
+    21300274: longSword_137
+    21300276: longSword_138
+    21300278: longSword_139
+    21300280: longSword_140
+    21300282: longSword_141
+    21300284: longSword_142
+    21300286: longSword_143
+    21300288: longSword_144
+    21300290: longSword_145
+    21300292: longSword_146
+    21300294: longSword_147
+    21300296: longSword_148
+    21300298: longSword_149
+    21300300: longSword_150
+    21300302: longSword_151
+    21300304: longSword_152
+    21300306: longSword_153
+    21300308: longSword_154
+    21300310: longSword_155
+    21300312: longSword_156
+    21300314: longSword_157
+    21300316: longSword_158
+    21300318: longSword_159
+    21300320: longSword_160
+    21300322: longSword_161
+    21300324: longSword_162
+    21300326: longSword_163
+    21300328: longSword_164
+    21300330: longSword_165
+    21300332: longSword_166
+    21300334: longSword_167
+    21300336: longSword_168
+    21300338: longSword_169
+    21300340: longSword_170
+    21300342: longSword_171
+    21300344: longSword_172
+    21300346: longSword_173
+    21300348: longSword_174
+    21300350: longSword_175
+    21300352: longSword_176
+    21300354: longSword_177
+    21300356: longSword_178
+    21300358: longSword_179
+    21300360: longSword_180
+    21300362: longSword_181
+    21300364: longSword_182
+    21300366: longSword_183
+    21300368: longSword_184
+    21300370: longSword_185
+    21300372: longSword_186
+    21300374: longSword_187
+    21300376: longSword_188
+    21300378: longSword_189
+    21300380: longSword_190
+    21300382: longSword_191
+    21300384: longSword_192
+    21300386: longSword_193
+    21300388: longSword_194
+    21300390: longSword_195
+    21300392: longSword_196
+    21300394: longSword_197
+    21300396: longSword_198
+    21300398: longSword_199
+    21300400: longSword_200
+    21300402: longSword_201
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: longSword_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2049
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2049
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2049
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2049
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.272781, y: 24.802734}
+        - {x: -18.272781, y: 11.802734}
+        - {x: -18.272781, y: -12.197266}
+        - {x: -14.272781, y: -24.197266}
+        - {x: 19.727219, y: -24.197266}
+        - {x: 19.727219, y: 24.802734}
+    - name: longSword_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2049
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.016922, y: 24.802734}
+        - {x: -25.016922, y: -20.197266}
+        - {x: -22.016922, y: -24.197266}
+        - {x: 22.983078, y: -24.197266}
+        - {x: 26.983078, y: -21.197266}
+        - {x: 26.983078, y: 24.802734}
+    - name: longSword_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2049
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.99414, y: 17.802734}
+        - {x: 15.994141, y: 22.802734}
+        - {x: 11.994141, y: 24.802734}
+        - {x: -13.005859, y: 24.802734}
+        - {x: -21.00586, y: 18.802734}
+        - {x: -24.00586, y: 15.802734}
+        - {x: -24.00586, y: -1.1972656}
+        - {x: -13.005859, y: -24.197266}
+        - {x: 19.99414, y: -24.197266}
+        - {x: 25.99414, y: -13.197266}
+        - {x: 25.99414, y: 17.802734}
+    - name: longSword_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2049
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.147766, y: 24.802734}
+        - {x: -18.147766, y: 15.802734}
+        - {x: -18.147766, y: -17.197266}
+        - {x: -14.147766, y: -24.197266}
+        - {x: 19.852234, y: -24.197266}
+        - {x: 19.852234, y: 7.8027344}
+        - {x: 12.852234, y: 24.802734}
+    - name: longSword_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1985
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1985
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1985
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1985
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.146484, y: 24.761108}
+        - {x: -12.853516, y: 24.761108}
+        - {x: -16.853516, y: 23.761108}
+        - {x: -16.853516, y: -18.238892}
+        - {x: -15.853516, y: -23.238892}
+        - {x: -11.853516, y: -24.238892}
+        - {x: 8.146484, y: -24.238892}
+        - {x: 18.146484, y: -7.2388916}
+        - {x: 18.146484, y: 12.761108}
+        - {x: 15.146484, y: 19.761108}
+    - name: longSword_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.1881714, y: 24.761108}
+        - {x: -10.811829, y: 24.761108}
+        - {x: -16.811829, y: 17.761108}
+        - {x: -16.811829, y: -15.238892}
+        - {x: -13.811829, y: -24.238892}
+        - {x: 7.1881714, y: -24.238892}
+        - {x: 8.188171, y: -21.238892}
+        - {x: 18.188171, y: -0.2388916}
+        - {x: 18.188171, y: 15.761108}
+    - name: longSword_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1985
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1921
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1921
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1921
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1921
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.272781, y: 25.219482}
+        - {x: -18.272781, y: 16.219482}
+        - {x: -18.272781, y: -19.780518}
+        - {x: -16.272781, y: -24.780518}
+        - {x: 19.727219, y: -24.780518}
+        - {x: 19.727219, y: 22.219482}
+        - {x: 12.727219, y: 25.219482}
+    - name: longSword_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1921
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.016922, y: 25.219482}
+        - {x: -25.016922, y: 12.219482}
+        - {x: -25.016922, y: -1.7805176}
+        - {x: -21.016922, y: -3.7805176}
+        - {x: -15.016922, y: -24.780518}
+        - {x: 16.983078, y: -24.780518}
+        - {x: 26.983078, y: -15.780518}
+        - {x: 26.983078, y: 23.219482}
+        - {x: 25.983078, y: 25.219482}
+    - name: longSword_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1921
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.00586, y: 25.219482}
+        - {x: -24.00586, y: 24.219482}
+        - {x: -24.00586, y: -9.780518}
+        - {x: -21.00586, y: -24.780518}
+        - {x: 16.99414, y: -24.780518}
+        - {x: 25.99414, y: -9.780518}
+        - {x: 25.99414, y: 21.219482}
+        - {x: 17.99414, y: 25.219482}
+    - name: longSword_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1921
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.178375, y: 25.219482}
+        - {x: -16.178375, y: 22.219482}
+        - {x: -17.178375, y: 12.219482}
+        - {x: -17.178375, y: -18.780518}
+        - {x: -16.178375, y: -24.780518}
+        - {x: 18.821625, y: -24.780518}
+        - {x: 18.821625, y: 18.219482}
+        - {x: 14.821625, y: 25.219482}
+    - name: longSword_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1857
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1857
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1857
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1857
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1857
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.7005005, y: 24.677734}
+        - {x: -16.7005, y: 16.677734}
+        - {x: -16.7005, y: -13.322266}
+        - {x: -11.7005005, y: -24.322266}
+        - {x: 18.2995, y: -24.322266}
+        - {x: 18.2995, y: 24.677734}
+    - name: longSword_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1857
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.658844, y: 4.6777344}
+        - {x: -12.658844, y: -0.32226562}
+        - {x: -6.658844, y: -22.322266}
+        - {x: -5.658844, y: -24.322266}
+        - {x: 18.341156, y: -24.322266}
+        - {x: 18.341156, y: 24.677734}
+        - {x: -5.658844, y: 24.677734}
+        - {x: -16.658844, y: 14.677734}
+    - name: longSword_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1857
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1793
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1791
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1791
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1791
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_32
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1791
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_33
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1791
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_34
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1791
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1791
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1729
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1729
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1729
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1729
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1729
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1729
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1729
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1729
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1665
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1666
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_46
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1666
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1666
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1666
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1666
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_50
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1666
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1666
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_52
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1601
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1601
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1601
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1601
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1601
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1601
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1601
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1601
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1538
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1538
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1537
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1536
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1537
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1538
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1537
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1536
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1537
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1473
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1473
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_71
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1474
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1474
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_73
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1473
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1473
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_75
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1473
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_76
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1473
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1473
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1409
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1409
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1408
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1409
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1408
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_87
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1345
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1345
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_89
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1346
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_90
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1346
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1345
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1345
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1345
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1345
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1345
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1281
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_97
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1280
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1280
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_99
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1280
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1280
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.353516, y: 26.333374}
+        - {x: -17.353516, y: 21.333374}
+        - {x: -18.353516, y: 15.333374}
+        - {x: -18.353516, y: -23.666626}
+        - {x: -14.353516, y: -24.666626}
+        - {x: 14.646484, y: -24.666626}
+        - {x: 19.646484, y: -4.666626}
+        - {x: 19.646484, y: 16.333374}
+        - {x: 9.646484, y: 26.333374}
+    - name: longSword_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1280
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.811829, y: 26.333374}
+        - {x: -19.811829, y: 22.333374}
+        - {x: -19.811829, y: -21.666626}
+        - {x: -14.811829, y: -24.666626}
+        - {x: 19.188171, y: -24.666626}
+        - {x: 21.188171, y: -17.666626}
+        - {x: 21.188171, y: 22.333374}
+        - {x: 14.188171, y: 26.333374}
+    - name: longSword_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1217
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1217
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_104
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_105
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1217
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.1809845, y: 25.761108}
+        - {x: -10.1809845, y: 21.761108}
+        - {x: -17.180984, y: -0.2388916}
+        - {x: -17.180984, y: -8.238892}
+        - {x: -14.1809845, y: -11.238892}
+        - {x: -7.1809845, y: -23.238892}
+        - {x: -3.1809845, y: -24.238892}
+        - {x: 13.8190155, y: -24.238892}
+        - {x: 18.819016, y: -18.238892}
+        - {x: 18.819016, y: 23.761108}
+        - {x: 11.8190155, y: 25.761108}
+    - name: longSword_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1217
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.952484, y: 25.761108}
+        - {x: -14.047516, y: 25.761108}
+        - {x: -18.047516, y: 21.761108}
+        - {x: -18.047516, y: -14.238892}
+        - {x: -14.047516, y: -24.238892}
+        - {x: 17.952484, y: -24.238892}
+        - {x: 19.952484, y: -19.238892}
+        - {x: 19.952484, y: 17.761108}
+        - {x: 18.952484, y: 23.761108}
+    - name: longSword_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1217
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.402344, y: 25.761108}
+        - {x: -16.597656, y: 25.761108}
+        - {x: -16.597656, y: -24.238892}
+        - {x: 15.402344, y: -24.238892}
+        - {x: 18.402344, y: -18.238892}
+        - {x: 18.402344, y: 4.7611084}
+        - {x: 15.402344, y: 20.761108}
+    - name: longSword_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1153
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_109
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1153
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_110
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1153
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1153
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1153
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.914703, y: 26.219482}
+        - {x: -17.914703, y: 10.219482}
+        - {x: -17.914703, y: -24.780518}
+        - {x: 17.085297, y: -24.780518}
+        - {x: 19.085297, y: -22.780518}
+        - {x: 19.085297, y: 10.219482}
+        - {x: 8.085297, y: 26.219482}
+    - name: longSword_113
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1153
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.157562, y: 26.219482}
+        - {x: -13.842438, y: 26.219482}
+        - {x: -18.842438, y: 21.219482}
+        - {x: -19.842438, y: 13.219482}
+        - {x: -19.842438, y: -24.780518}
+        - {x: 12.157562, y: -24.780518}
+        - {x: 21.157562, y: -14.780518}
+        - {x: 21.157562, y: 13.219482}
+    - name: longSword_114
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1089
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1089
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_117
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1089
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.574219, y: 25.677734}
+        - {x: -9.425781, y: 25.677734}
+        - {x: -16.425781, y: 22.677734}
+        - {x: -17.425781, y: 17.677734}
+        - {x: -17.425781, y: -19.322266}
+        - {x: -14.425781, y: -24.322266}
+        - {x: 13.574219, y: -24.322266}
+        - {x: 18.574219, y: -18.322266}
+        - {x: 18.574219, y: 18.677734}
+        - {x: 17.574219, y: 21.677734}
+    - name: longSword_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1089
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.414703, y: 25.677734}
+        - {x: -17.414703, y: 21.677734}
+        - {x: -18.414703, y: 17.677734}
+        - {x: -18.414703, y: -19.322266}
+        - {x: -15.414703, y: -24.322266}
+        - {x: 9.585297, y: -24.322266}
+        - {x: 19.585297, y: -2.3222656}
+        - {x: 19.585297, y: 14.677734}
+        - {x: 10.585297, y: 25.677734}
+    - name: longSword_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1089
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.873047, y: 25.677734}
+        - {x: -15.873047, y: 21.677734}
+        - {x: -16.873047, y: 17.677734}
+        - {x: -16.873047, y: -19.322266}
+        - {x: -13.873047, y: -24.322266}
+        - {x: 9.126953, y: -24.322266}
+        - {x: 18.126953, y: -4.3222656}
+        - {x: 18.126953, y: 19.677734}
+        - {x: 12.126953, y: 25.677734}
+    - name: longSword_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1025
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_121
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1023
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_122
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_123
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_124
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1023
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1023
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_129
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_130
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_131
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_132
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_133
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 961
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 961
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_135
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 961
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.654953, y: 25.594421}
+        - {x: -6.345047, y: 25.594421}
+        - {x: -12.345047, y: 23.594421}
+        - {x: -16.345047, y: 7.5944214}
+        - {x: -16.345047, y: -13.405579}
+        - {x: -7.345047, y: -24.405579}
+        - {x: 11.654953, y: -24.405579}
+        - {x: 17.654953, y: -15.405579}
+        - {x: 17.654953, y: 21.594421}
+    - name: longSword_136
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 961
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.7421875, y: 25.594421}
+        - {x: -17.742188, y: 18.594421}
+        - {x: -17.742188, y: -17.405579}
+        - {x: -12.7421875, y: -24.405579}
+        - {x: 14.2578125, y: -24.405579}
+        - {x: 19.257812, y: -13.405579}
+        - {x: 19.257812, y: 12.594421}
+        - {x: 16.257812, y: 25.594421}
+    - name: longSword_137
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 961
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.7005005, y: 25.594421}
+        - {x: -11.7005005, y: 23.594421}
+        - {x: -17.7005, y: 7.5944214}
+        - {x: -17.7005, y: -7.4055786}
+        - {x: -9.7005005, y: -22.405579}
+        - {x: -4.7005005, y: -24.405579}
+        - {x: 19.2995, y: -24.405579}
+        - {x: 19.2995, y: 19.594421}
+        - {x: 14.2994995, y: 25.594421}
+    - name: longSword_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.128235, y: 25.594421}
+        - {x: -16.128235, y: 11.594421}
+        - {x: -16.128235, y: -2.4055786}
+        - {x: -6.128235, y: -22.405579}
+        - {x: -1.1282349, y: -24.405579}
+        - {x: 17.871765, y: -24.405579}
+        - {x: 17.871765, y: 24.594421}
+        - {x: 13.871765, y: 25.594421}
+    - name: longSword_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.0865784, y: 25.594421}
+        - {x: -17.086578, y: 19.594421}
+        - {x: -17.086578, y: -16.405579}
+        - {x: -14.086578, y: -24.405579}
+        - {x: 17.913422, y: -24.405579}
+        - {x: 18.913422, y: -21.405579}
+        - {x: 18.913422, y: 21.594421}
+        - {x: 15.913422, y: 25.594421}
+    - name: longSword_140
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 961
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.0755005, y: 25.594421}
+        - {x: -18.0755, y: 16.594421}
+        - {x: -18.0755, y: -12.405579}
+        - {x: -14.0755005, y: -24.405579}
+        - {x: 16.9245, y: -24.405579}
+        - {x: 19.9245, y: -18.405579}
+        - {x: 19.9245, y: 21.594421}
+        - {x: 17.9245, y: 25.594421}
+    - name: longSword_141
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 961
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.033844, y: 25.594421}
+        - {x: -19.033844, y: 20.594421}
+        - {x: -19.033844, y: -16.405579}
+        - {x: -16.033844, y: -24.405579}
+        - {x: 15.966156, y: -24.405579}
+        - {x: 20.966156, y: -12.405579}
+        - {x: 20.966156, y: 25.594421}
+    - name: longSword_142
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.022766, y: 25.594421}
+        - {x: -17.022766, y: 16.594421}
+        - {x: -17.022766, y: -24.405579}
+        - {x: 15.977234, y: -24.405579}
+        - {x: 18.977234, y: -10.405579}
+        - {x: 18.977234, y: 23.594421}
+        - {x: 12.977234, y: 25.594421}
+    - name: longSword_143
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.4505005, y: 25.594421}
+        - {x: -17.4505, y: 9.594421}
+        - {x: -17.4505, y: -6.4055786}
+        - {x: -10.4505005, y: -22.405579}
+        - {x: -3.4505005, y: -24.405579}
+        - {x: 16.5495, y: -24.405579}
+        - {x: 17.5495, y: -19.405579}
+        - {x: 17.5495, y: 22.594421}
+        - {x: 11.5494995, y: 25.594421}
+    - name: longSword_144
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 961
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_145
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.8671875, y: 25.594421}
+        - {x: -17.867188, y: 19.594421}
+        - {x: -17.867188, y: -21.405579}
+        - {x: -16.867188, y: -24.405579}
+        - {x: 18.132812, y: -24.405579}
+        - {x: 18.132812, y: 17.594421}
+        - {x: 14.1328125, y: 25.594421}
+    - name: longSword_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 897
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 898
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 898
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_150
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 897
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_151
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 897
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 897
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_155
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 897
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_157
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 897
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_160
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 833
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 833
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.40625, y: 25.011108}
+        - {x: -16.40625, y: 23.011108}
+        - {x: -16.40625, y: -16.988892}
+        - {x: -13.40625, y: -23.988892}
+        - {x: 10.59375, y: -23.988892}
+        - {x: 12.59375, y: -22.988892}
+        - {x: 17.59375, y: -10.988892}
+        - {x: 17.59375, y: 7.0111084}
+        - {x: 8.59375, y: 25.011108}
+    - name: longSword_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.833984, y: 25.011108}
+        - {x: -17.833984, y: 24.011108}
+        - {x: -17.833984, y: -13.988892}
+        - {x: -14.833984, y: -22.988892}
+        - {x: -13.833984, y: -23.988892}
+        - {x: 6.1660156, y: -23.988892}
+        - {x: 12.166016, y: -22.988892}
+        - {x: 19.166016, y: -8.988892}
+        - {x: 19.166016, y: 9.011108}
+        - {x: 8.166016, y: 25.011108}
+    - name: longSword_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 833
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.792297, y: -23.988892}
+        - {x: 14.207703, y: -23.988892}
+        - {x: 19.207703, y: -20.988892}
+        - {x: 19.207703, y: 16.011108}
+        - {x: 15.207703, y: 23.011108}
+        - {x: 10.207703, y: 25.011108}
+        - {x: -13.792297, y: 25.011108}
+        - {x: -17.792297, y: 12.011108}
+    - name: longSword_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 833
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.373047, y: 25.011108}
+        - {x: -16.373047, y: 23.011108}
+        - {x: -16.373047, y: -23.988892}
+        - {x: 4.626953, y: -23.988892}
+        - {x: 8.626953, y: -22.988892}
+        - {x: 17.626953, y: -3.9888916}
+        - {x: 17.626953, y: 15.011108}
+        - {x: 8.626953, y: 25.011108}
+    - name: longSword_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 833
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.270172, y: 25.011108}
+        - {x: -17.270172, y: 23.011108}
+        - {x: -17.270172, y: -14.988892}
+        - {x: -15.270172, y: -23.988892}
+        - {x: 14.729828, y: -23.988892}
+        - {x: 18.729828, y: -22.988892}
+        - {x: 18.729828, y: 25.011108}
+    - name: longSword_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 833
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.8632812, y: 25.011108}
+        - {x: -12.136719, y: 25.011108}
+        - {x: -18.136719, y: 14.011108}
+        - {x: -18.136719, y: -10.988892}
+        - {x: -14.136719, y: -23.988892}
+        - {x: 4.8632812, y: -23.988892}
+        - {x: 8.863281, y: -22.988892}
+        - {x: 10.863281, y: -20.988892}
+        - {x: 19.863281, y: -1.9888916}
+        - {x: 19.863281, y: 14.011108}
+    - name: longSword_167
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 833
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.966156, y: 11.011108}
+        - {x: 8.966156, y: 25.011108}
+        - {x: -11.033844, y: 25.011108}
+        - {x: -19.033844, y: 18.011108}
+        - {x: -19.033844, y: -14.988892}
+        - {x: -15.033844, y: -23.988892}
+        - {x: 7.966156, y: -23.988892}
+        - {x: 9.966156, y: -22.988892}
+        - {x: 11.966156, y: -20.988892}
+        - {x: 11.966156, y: -16.988892}
+        - {x: 20.966156, y: -2.9888916}
+    - name: longSword_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 833
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.583984, y: 25.011108}
+        - {x: -17.583984, y: -23.988892}
+        - {x: 12.416016, y: -23.988892}
+        - {x: 19.416016, y: -8.988892}
+        - {x: 19.416016, y: 14.011108}
+        - {x: 7.4160156, y: 25.011108}
+    - name: longSword_169
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 833
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.927124, y: 25.011108}
+        - {x: -11.072876, y: 25.011108}
+        - {x: -17.072876, y: 21.011108}
+        - {x: -17.072876, y: -20.988892}
+        - {x: -15.072876, y: -23.988892}
+        - {x: 2.927124, y: -23.988892}
+        - {x: 11.927124, y: -21.988892}
+        - {x: 18.927124, y: -2.9888916}
+        - {x: 18.927124, y: 11.011108}
+    - name: longSword_170
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 833
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_171
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 833
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.520142, y: 25.011108}
+        - {x: -16.520142, y: 24.011108}
+        - {x: -16.520142, y: -20.988892}
+        - {x: -15.520142, y: -23.988892}
+        - {x: 8.479858, y: -23.988892}
+        - {x: 12.479858, y: -22.988892}
+        - {x: 18.479858, y: -3.9888916}
+        - {x: 18.479858, y: 12.011108}
+        - {x: 9.479858, y: 25.011108}
+    - name: longSword_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 769
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_174
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 769
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_175
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 770
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_176
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 770
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 767
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.688171, y: 15.53064}
+        - {x: 16.688171, y: 19.53064}
+        - {x: -17.311829, y: 19.53064}
+        - {x: -17.311829, y: -17.46936}
+        - {x: -9.311829, y: -18.46936}
+        - {x: 8.688171, y: -18.46936}
+        - {x: 16.688171, y: -15.46936}
+        - {x: 18.688171, y: -14.46936}
+    - name: longSword_178
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 641
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.6725235, y: 24.886108}
+        - {x: -19.672523, y: 13.886108}
+        - {x: -19.672523, y: -9.113892}
+        - {x: -12.6725235, y: -24.113892}
+        - {x: 21.327477, y: -24.113892}
+        - {x: 21.327477, y: 18.886108}
+        - {x: 18.327477, y: 24.886108}
+    - name: longSword_179
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 640
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.2721252, y: 24.916687}
+        - {x: -23.272125, y: 9.916687}
+        - {x: -23.272125, y: -19.083313}
+        - {x: -10.272125, y: -24.083313}
+        - {x: 23.727875, y: -24.083313}
+        - {x: 23.727875, y: 24.916687}
+    - name: longSword_180
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 640
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.6777344, y: 24.916687}
+        - {x: -22.677734, y: -8.083313}
+        - {x: -22.677734, y: -21.083313}
+        - {x: -11.677734, y: -24.083313}
+        - {x: 23.322266, y: -24.083313}
+        - {x: 23.322266, y: 24.916687}
+    - name: longSword_181
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 640
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.2161255, y: 25.416687}
+        - {x: -28.216125, y: 10.416687}
+        - {x: -28.216125, y: -14.583313}
+        - {x: -22.216125, y: -17.583313}
+        - {x: -20.216125, y: -17.583313}
+        - {x: -11.2161255, y: -24.583313}
+        - {x: 29.783875, y: -24.583313}
+        - {x: 29.783875, y: 24.416687}
+        - {x: 27.783875, y: 25.416687}
+    - name: longSword_182
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 640
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.091125, y: 34.416687}
+        - {x: -33.091125, y: 25.416687}
+        - {x: -40.091125, y: 13.416687}
+        - {x: -40.091125, y: -25.583313}
+        - {x: -26.091125, y: -33.583313}
+        - {x: 17.908875, y: -33.583313}
+        - {x: 35.908875, y: -5.583313}
+        - {x: 41.908875, y: 9.416687}
+        - {x: 41.908875, y: 34.416687}
+    - name: longSword_183
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 640
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.353516, y: 32.916687}
+        - {x: -34.353516, y: 26.916687}
+        - {x: -30.353516, y: 24.916687}
+        - {x: 25.646484, y: 13.916687}
+        - {x: -2.3535156, y: 5.916687}
+        - {x: -11.353516, y: 20.916687}
+        - {x: -25.353516, y: 22.916687}
+        - {x: -38.353516, y: 20.916687}
+        - {x: -38.353516, y: -32.083313}
+        - {x: 10.646484, y: -32.083313}
+        - {x: 38.646484, y: -22.083313}
+        - {x: 38.646484, y: 20.916687}
+        - {x: 18.646484, y: 32.916687}
+    - name: longSword_184
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 447
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.4394531, y: 25.822266}
+        - {x: -27.560547, y: -0.17773438}
+        - {x: -27.560547, y: -25.177734}
+        - {x: 28.439453, y: -25.177734}
+        - {x: 28.439453, y: 25.822266}
+    - name: longSword_185
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 449
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_186
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 449
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.228516, y: 24.761078}
+        - {x: -18.228516, y: -24.238922}
+        - {x: 11.771484, y: -24.238922}
+        - {x: 19.771484, y: -10.238922}
+        - {x: 19.771484, y: 14.761078}
+        - {x: 9.771484, y: 24.761078}
+    - name: longSword_187
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 449
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.736328, y: 24.761078}
+        - {x: -28.736328, y: -15.238922}
+        - {x: -14.736328, y: -24.238922}
+        - {x: 10.263672, y: -24.238922}
+        - {x: 29.263672, y: -2.238922}
+        - {x: 29.263672, y: 24.761078}
+    - name: longSword_188
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 449
+        width: 95
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.428345, y: 24.761078}
+        - {x: -46.428345, y: 13.761078}
+        - {x: -46.428345, y: -5.238922}
+        - {x: 11.571655, y: -24.238922}
+        - {x: 43.571655, y: -24.238922}
+        - {x: 46.571655, y: -20.238922}
+        - {x: 46.571655, y: 24.761078}
+    - name: longSword_189
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 449
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.364563, y: 24.761078}
+        - {x: -45.364563, y: 16.761078}
+        - {x: -45.364563, y: 5.761078}
+        - {x: 14.635437, y: -24.238922}
+        - {x: 45.635437, y: -24.238922}
+        - {x: 45.635437, y: 12.761078}
+        - {x: 41.635437, y: 24.761078}
+    - name: longSword_190
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 254
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.327477, y: 26.727875}
+        - {x: -2.6725235, y: 26.727875}
+        - {x: -11.6725235, y: 21.727875}
+        - {x: -19.672523, y: -9.272125}
+        - {x: -19.672523, y: -26.272125}
+        - {x: 7.3274765, y: -26.272125}
+        - {x: 17.327477, y: -24.272125}
+        - {x: 21.327477, y: -21.272125}
+        - {x: 21.327477, y: 21.727875}
+    - name: longSword_191
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 257
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.272125, y: 25.136078}
+        - {x: -23.272125, y: 10.136078}
+        - {x: -23.272125, y: -12.863922}
+        - {x: -7.2721252, y: -24.863922}
+        - {x: 23.727875, y: -24.863922}
+        - {x: 23.727875, y: 22.136078}
+        - {x: 20.727875, y: 25.136078}
+    - name: longSword_192
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 257
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.322266, y: 24.136078}
+        - {x: -18.677734, y: 24.136078}
+        - {x: -22.677734, y: 23.136078}
+        - {x: -22.677734, y: 1.1360779}
+        - {x: -11.677734, y: -23.863922}
+        - {x: 23.322266, y: -23.863922}
+        - {x: 23.322266, y: 10.136078}
+        - {x: 22.322266, y: 19.136078}
+    - name: longSword_193
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 257
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.807922, y: 24.636078}
+        - {x: -26.807922, y: 16.636078}
+        - {x: -26.807922, y: -23.363922}
+        - {x: -21.807922, y: -24.363922}
+        - {x: 28.192078, y: -24.363922}
+        - {x: 28.192078, y: 24.636078}
+    - name: longSword_194
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 238
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.9088745, y: 35.217453}
+        - {x: -5.0911255, y: 35.217453}
+        - {x: -14.0911255, y: 9.217453}
+        - {x: -11.0911255, y: -12.782547}
+        - {x: -8.0911255, y: -15.782547}
+        - {x: -1.0911255, y: -15.782547}
+        - {x: 2.9088745, y: -11.782547}
+        - {x: 2.9088745, y: -15.782547}
+        - {x: -11.0911255, y: -15.782547}
+        - {x: -36.091125, y: 7.217453}
+        - {x: -40.091125, y: 8.217453}
+        - {x: -40.091125, y: -2.782547}
+        - {x: -34.091125, y: -13.782547}
+        - {x: -11.0911255, y: -33.782547}
+        - {x: 41.908875, y: -33.782547}
+        - {x: 41.908875, y: -1.782547}
+        - {x: 40.908875, y: 8.217453}
+    - name: longSword_195
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 241
+        width: 78
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.884094, y: 33.625656}
+        - {x: -37.884094, y: 29.625656}
+        - {x: -37.884094, y: -17.374344}
+        - {x: -18.884094, y: -21.374344}
+        - {x: -6.884094, y: -14.374344}
+        - {x: 9.115906, y: -21.374344}
+        - {x: -30.884094, y: -24.374344}
+        - {x: -32.884094, y: -26.374344}
+        - {x: -34.884094, y: -32.374344}
+        - {x: 32.115906, y: -32.374344}
+        - {x: 38.115906, y: -20.374344}
+        - {x: 38.115906, y: 19.625656}
+        - {x: -5.884094, y: 33.625656}
+    - name: longSword_196
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 63
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.4296875, y: 25.572266}
+        - {x: -27.570312, y: 25.572266}
+        - {x: -27.570312, y: -24.427734}
+        - {x: -14.5703125, y: -25.427734}
+        - {x: 28.429688, y: -25.427734}
+        - {x: 28.429688, y: -20.427734}
+        - {x: 25.429688, y: -16.427734}
+    - name: longSword_197
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 65
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: longSword_198
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 65
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5143127, y: 24.51107}
+        - {x: -16.514313, y: 19.51107}
+        - {x: -17.514313, y: 15.51107}
+        - {x: -17.514313, y: -15.48893}
+        - {x: -10.514313, y: -24.48893}
+        - {x: 19.485687, y: -24.48893}
+        - {x: 19.485687, y: 16.51107}
+        - {x: 17.485687, y: 24.51107}
+    - name: longSword_199
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 65
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.416687, y: 24.51107}
+        - {x: -13.583313, y: 24.51107}
+        - {x: -28.583313, y: 14.51107}
+        - {x: -28.583313, y: -3.4889297}
+        - {x: -24.583313, y: -8.48893}
+        - {x: -8.583313, y: -24.48893}
+        - {x: 23.416687, y: -24.48893}
+        - {x: 29.416687, y: -19.48893}
+        - {x: 29.416687, y: 5.5110703}
+        - {x: 23.416687, y: 20.51107}
+    - name: longSword_200
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 65
+        width: 95
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.039673, y: 24.51107}
+        - {x: -46.039673, y: 22.51107}
+        - {x: -46.039673, y: -21.48893}
+        - {x: -45.039673, y: -24.48893}
+        - {x: 26.960327, y: -24.48893}
+        - {x: 47.960327, y: -10.48893}
+        - {x: 47.960327, y: 23.51107}
+        - {x: 45.960327, y: 24.51107}
+    - name: longSword_201
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 65
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.414673, y: 24.51107}
+        - {x: -45.414673, y: -24.48893}
+        - {x: -11.414673, y: -24.48893}
+        - {x: 15.585327, y: -15.48893}
+        - {x: 45.585327, y: -0.48892975}
+        - {x: 45.585327, y: 24.51107}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

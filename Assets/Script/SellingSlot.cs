@@ -67,15 +67,15 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
                 {
                     item = inventory.theDraggedItem;
                     tempSelling.tempItem[index] = item;
-                 //   item.itemValue--;
+                    //item.itemValue--;
                     inventory.closeDraggedItem();
                 }
                 else
                 {
-                  //  item.itemValue++;
+                    //item.itemValue++;
                     item = inventory.theDraggedItem;
                     tempSelling.tempItem[index] = item;
-                 //   item.itemValue--;
+                    //item.itemValue--;
                     inventory.closeDraggedItem();
                 }
             }
@@ -86,7 +86,7 @@ public class SellingSlot : MonoBehaviour, IPointerDownHandler
     {
         if (transform.GetChild(1).GetComponent<Image>().enabled == false)
         {
-            item.itemValue++;
+         //   item.itemValue++;
         }
         //   transform.GetComponent<Image>().sprite = item.itemDefaultIcon;
         this.item = new Item();

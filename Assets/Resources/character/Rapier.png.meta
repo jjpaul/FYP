@@ -1,0 +1,3041 @@
+fileFormatVersion: 2
+guid: 3a93ba8f87d9ae64bafb43a5c132625a
+timeCreated: 1461259818
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rapier_0
+    21300002: Rapier_1
+    21300004: Rapier_2
+    21300006: Rapier_3
+    21300008: Rapier_4
+    21300010: Rapier_5
+    21300012: Rapier_6
+    21300014: Rapier_7
+    21300016: Rapier_8
+    21300018: Rapier_9
+    21300020: Rapier_10
+    21300022: Rapier_11
+    21300024: Rapier_12
+    21300026: Rapier_13
+    21300028: Rapier_14
+    21300030: Rapier_15
+    21300032: Rapier_16
+    21300034: Rapier_17
+    21300036: Rapier_18
+    21300038: Rapier_19
+    21300040: Rapier_20
+    21300042: Rapier_21
+    21300044: Rapier_22
+    21300046: Rapier_23
+    21300048: Rapier_24
+    21300050: Rapier_25
+    21300052: Rapier_26
+    21300054: Rapier_27
+    21300056: Rapier_28
+    21300058: Rapier_29
+    21300060: Rapier_30
+    21300062: Rapier_31
+    21300064: Rapier_32
+    21300066: Rapier_33
+    21300068: Rapier_34
+    21300070: Rapier_35
+    21300072: Rapier_36
+    21300074: Rapier_37
+    21300076: Rapier_38
+    21300078: Rapier_39
+    21300080: Rapier_40
+    21300082: Rapier_41
+    21300084: Rapier_42
+    21300086: Rapier_43
+    21300088: Rapier_44
+    21300090: Rapier_45
+    21300092: Rapier_46
+    21300094: Rapier_47
+    21300096: Rapier_48
+    21300098: Rapier_49
+    21300100: Rapier_50
+    21300102: Rapier_51
+    21300104: Rapier_52
+    21300106: Rapier_53
+    21300108: Rapier_54
+    21300110: Rapier_55
+    21300112: Rapier_56
+    21300114: Rapier_57
+    21300116: Rapier_58
+    21300118: Rapier_59
+    21300120: Rapier_60
+    21300122: Rapier_61
+    21300124: Rapier_62
+    21300126: Rapier_63
+    21300128: Rapier_64
+    21300130: Rapier_65
+    21300132: Rapier_66
+    21300134: Rapier_67
+    21300136: Rapier_68
+    21300138: Rapier_69
+    21300140: Rapier_70
+    21300142: Rapier_71
+    21300144: Rapier_72
+    21300146: Rapier_73
+    21300148: Rapier_74
+    21300150: Rapier_75
+    21300152: Rapier_76
+    21300154: Rapier_77
+    21300156: Rapier_78
+    21300158: Rapier_79
+    21300160: Rapier_80
+    21300162: Rapier_81
+    21300164: Rapier_82
+    21300166: Rapier_83
+    21300168: Rapier_84
+    21300170: Rapier_85
+    21300172: Rapier_86
+    21300174: Rapier_87
+    21300176: Rapier_88
+    21300178: Rapier_89
+    21300180: Rapier_90
+    21300182: Rapier_91
+    21300184: Rapier_92
+    21300186: Rapier_93
+    21300188: Rapier_94
+    21300190: Rapier_95
+    21300192: Rapier_96
+    21300194: Rapier_97
+    21300196: Rapier_98
+    21300198: Rapier_99
+    21300200: Rapier_100
+    21300202: Rapier_101
+    21300204: Rapier_102
+    21300206: Rapier_103
+    21300208: Rapier_104
+    21300210: Rapier_105
+    21300212: Rapier_106
+    21300214: Rapier_107
+    21300216: Rapier_108
+    21300218: Rapier_109
+    21300220: Rapier_110
+    21300222: Rapier_111
+    21300224: Rapier_112
+    21300226: Rapier_113
+    21300228: Rapier_114
+    21300230: Rapier_115
+    21300232: Rapier_116
+    21300234: Rapier_117
+    21300236: Rapier_118
+    21300238: Rapier_119
+    21300240: Rapier_120
+    21300242: Rapier_121
+    21300244: Rapier_122
+    21300246: Rapier_123
+    21300248: Rapier_124
+    21300250: Rapier_125
+    21300252: Rapier_126
+    21300254: Rapier_127
+    21300256: Rapier_128
+    21300258: Rapier_129
+    21300260: Rapier_130
+    21300262: Rapier_131
+    21300264: Rapier_132
+    21300266: Rapier_133
+    21300268: Rapier_134
+    21300270: Rapier_135
+    21300272: Rapier_136
+    21300274: Rapier_137
+    21300276: Rapier_138
+    21300278: Rapier_139
+    21300280: Rapier_140
+    21300282: Rapier_141
+    21300284: Rapier_142
+    21300286: Rapier_143
+    21300288: Rapier_144
+    21300290: Rapier_145
+    21300292: Rapier_146
+    21300294: Rapier_147
+    21300296: Rapier_148
+    21300298: Rapier_149
+    21300300: Rapier_150
+    21300302: Rapier_151
+    21300304: Rapier_152
+    21300306: Rapier_153
+    21300308: Rapier_154
+    21300310: Rapier_155
+    21300312: Rapier_156
+    21300314: Rapier_157
+    21300316: Rapier_158
+    21300318: Rapier_159
+    21300320: Rapier_160
+    21300322: Rapier_161
+    21300324: Rapier_162
+    21300326: Rapier_163
+    21300328: Rapier_164
+    21300330: Rapier_165
+    21300332: Rapier_166
+    21300334: Rapier_167
+    21300336: Rapier_168
+    21300338: Rapier_169
+    21300340: Rapier_170
+    21300342: Rapier_171
+    21300344: Rapier_172
+    21300346: Rapier_173
+    21300348: Rapier_174
+    21300350: Rapier_175
+    21300352: Rapier_176
+    21300354: Rapier_177
+    21300356: Rapier_178
+    21300358: Rapier_179
+    21300360: Rapier_180
+    21300362: Rapier_181
+    21300364: Rapier_182
+    21300366: Rapier_183
+    21300368: Rapier_184
+    21300370: Rapier_185
+    21300372: Rapier_186
+    21300374: Rapier_187
+    21300376: Rapier_188
+    21300378: Rapier_189
+    21300380: Rapier_190
+    21300382: Rapier_191
+    21300384: Rapier_192
+    21300386: Rapier_193
+    21300388: Rapier_194
+    21300390: Rapier_195
+    21300392: Rapier_196
+    21300394: Rapier_197
+    21300396: Rapier_198
+    21300398: Rapier_199
+    21300400: Rapier_200
+    21300402: Rapier_201
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rapier_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2049
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2049
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2049
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2049
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.272781, y: 24.802734}
+        - {x: -18.272781, y: 11.802734}
+        - {x: -18.272781, y: -12.197266}
+        - {x: -14.272781, y: -24.197266}
+        - {x: 19.727219, y: -24.197266}
+        - {x: 19.727219, y: 24.802734}
+    - name: Rapier_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2049
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.016922, y: 24.802734}
+        - {x: -25.016922, y: -20.197266}
+        - {x: -22.016922, y: -24.197266}
+        - {x: 22.983078, y: -24.197266}
+        - {x: 26.983078, y: -21.197266}
+        - {x: 26.983078, y: 24.802734}
+    - name: Rapier_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2049
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.99414, y: 17.802734}
+        - {x: 15.994141, y: 22.802734}
+        - {x: 11.994141, y: 24.802734}
+        - {x: -13.005859, y: 24.802734}
+        - {x: -21.00586, y: 18.802734}
+        - {x: -24.00586, y: 15.802734}
+        - {x: -24.00586, y: -1.1972656}
+        - {x: -13.005859, y: -24.197266}
+        - {x: 19.99414, y: -24.197266}
+        - {x: 25.99414, y: -13.197266}
+        - {x: 25.99414, y: 17.802734}
+    - name: Rapier_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2049
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.147766, y: 24.802734}
+        - {x: -18.147766, y: 15.802734}
+        - {x: -18.147766, y: -17.197266}
+        - {x: -14.147766, y: -24.197266}
+        - {x: 19.852234, y: -24.197266}
+        - {x: 19.852234, y: 7.8027344}
+        - {x: 12.852234, y: 24.802734}
+    - name: Rapier_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1985
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1985
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1985
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1985
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1985
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.146484, y: 24.761108}
+        - {x: -12.853516, y: 24.761108}
+        - {x: -16.853516, y: 23.761108}
+        - {x: -16.853516, y: -18.238892}
+        - {x: -15.853516, y: -23.238892}
+        - {x: -11.853516, y: -24.238892}
+        - {x: 8.146484, y: -24.238892}
+        - {x: 18.146484, y: -7.2388916}
+        - {x: 18.146484, y: 12.761108}
+        - {x: 15.146484, y: 19.761108}
+    - name: Rapier_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1985
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.1881714, y: 24.761108}
+        - {x: -10.811829, y: 24.761108}
+        - {x: -16.811829, y: 17.761108}
+        - {x: -16.811829, y: -15.238892}
+        - {x: -13.811829, y: -24.238892}
+        - {x: 7.1881714, y: -24.238892}
+        - {x: 8.188171, y: -21.238892}
+        - {x: 18.188171, y: -0.2388916}
+        - {x: 18.188171, y: 15.761108}
+    - name: Rapier_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1985
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1921
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1921
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1921
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1921
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.272781, y: 25.219482}
+        - {x: -18.272781, y: 16.219482}
+        - {x: -18.272781, y: -19.780518}
+        - {x: -16.272781, y: -24.780518}
+        - {x: 19.727219, y: -24.780518}
+        - {x: 19.727219, y: 22.219482}
+        - {x: 12.727219, y: 25.219482}
+    - name: Rapier_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1921
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.016922, y: 25.219482}
+        - {x: -25.016922, y: 12.219482}
+        - {x: -25.016922, y: -1.7805176}
+        - {x: -21.016922, y: -3.7805176}
+        - {x: -15.016922, y: -24.780518}
+        - {x: 16.983078, y: -24.780518}
+        - {x: 26.983078, y: -15.780518}
+        - {x: 26.983078, y: 23.219482}
+        - {x: 25.983078, y: 25.219482}
+    - name: Rapier_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1921
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.00586, y: 25.219482}
+        - {x: -24.00586, y: 24.219482}
+        - {x: -24.00586, y: -9.780518}
+        - {x: -21.00586, y: -24.780518}
+        - {x: 16.99414, y: -24.780518}
+        - {x: 25.99414, y: -9.780518}
+        - {x: 25.99414, y: 21.219482}
+        - {x: 17.99414, y: 25.219482}
+    - name: Rapier_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1921
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.178375, y: 25.219482}
+        - {x: -16.178375, y: 22.219482}
+        - {x: -17.178375, y: 12.219482}
+        - {x: -17.178375, y: -18.780518}
+        - {x: -16.178375, y: -24.780518}
+        - {x: 18.821625, y: -24.780518}
+        - {x: 18.821625, y: 18.219482}
+        - {x: 14.821625, y: 25.219482}
+    - name: Rapier_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1857
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1857
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1857
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1857
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1857
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.7005005, y: 24.677734}
+        - {x: -16.7005, y: 16.677734}
+        - {x: -16.7005, y: -13.322266}
+        - {x: -11.7005005, y: -24.322266}
+        - {x: 18.2995, y: -24.322266}
+        - {x: 18.2995, y: 24.677734}
+    - name: Rapier_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1857
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.658844, y: 4.6777344}
+        - {x: -12.658844, y: -0.32226562}
+        - {x: -6.658844, y: -22.322266}
+        - {x: -5.658844, y: -24.322266}
+        - {x: 18.341156, y: -24.322266}
+        - {x: 18.341156, y: 24.677734}
+        - {x: -5.658844, y: 24.677734}
+        - {x: -16.658844, y: 14.677734}
+    - name: Rapier_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1857
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1793
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1791
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1791
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1791
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_32
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1791
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_33
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1791
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_34
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1791
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1791
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1729
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1729
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1729
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1729
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1729
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1729
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1729
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1729
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1665
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1666
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_46
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1666
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1666
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1666
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1666
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_50
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1666
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1666
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_52
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1601
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1601
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1601
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1601
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1601
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1601
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1601
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1601
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1538
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1538
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1537
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1536
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1537
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1538
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1537
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1536
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1537
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1473
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1473
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_71
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1474
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1474
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_73
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1473
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1473
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_75
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1473
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_76
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1473
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1473
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1409
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1409
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1408
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1409
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1408
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_87
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1345
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1345
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_89
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1346
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_90
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1346
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1345
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1345
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1345
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1345
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1345
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1281
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_97
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1280
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1280
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_99
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1280
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1280
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.353516, y: 26.333374}
+        - {x: -17.353516, y: 21.333374}
+        - {x: -18.353516, y: 15.333374}
+        - {x: -18.353516, y: -23.666626}
+        - {x: -14.353516, y: -24.666626}
+        - {x: 14.646484, y: -24.666626}
+        - {x: 19.646484, y: -4.666626}
+        - {x: 19.646484, y: 16.333374}
+        - {x: 9.646484, y: 26.333374}
+    - name: Rapier_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1280
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.811829, y: 26.333374}
+        - {x: -19.811829, y: 22.333374}
+        - {x: -19.811829, y: -21.666626}
+        - {x: -14.811829, y: -24.666626}
+        - {x: 19.188171, y: -24.666626}
+        - {x: 21.188171, y: -17.666626}
+        - {x: 21.188171, y: 22.333374}
+        - {x: 14.188171, y: 26.333374}
+    - name: Rapier_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1217
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1217
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_104
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_105
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1217
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.1809845, y: 25.761108}
+        - {x: -10.1809845, y: 21.761108}
+        - {x: -17.180984, y: -0.2388916}
+        - {x: -17.180984, y: -8.238892}
+        - {x: -14.1809845, y: -11.238892}
+        - {x: -7.1809845, y: -23.238892}
+        - {x: -3.1809845, y: -24.238892}
+        - {x: 13.8190155, y: -24.238892}
+        - {x: 18.819016, y: -18.238892}
+        - {x: 18.819016, y: 23.761108}
+        - {x: 11.8190155, y: 25.761108}
+    - name: Rapier_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1217
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.952484, y: 25.761108}
+        - {x: -14.047516, y: 25.761108}
+        - {x: -18.047516, y: 21.761108}
+        - {x: -18.047516, y: -14.238892}
+        - {x: -14.047516, y: -24.238892}
+        - {x: 17.952484, y: -24.238892}
+        - {x: 19.952484, y: -19.238892}
+        - {x: 19.952484, y: 17.761108}
+        - {x: 18.952484, y: 23.761108}
+    - name: Rapier_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1217
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.402344, y: 25.761108}
+        - {x: -16.597656, y: 25.761108}
+        - {x: -16.597656, y: -24.238892}
+        - {x: 15.402344, y: -24.238892}
+        - {x: 18.402344, y: -18.238892}
+        - {x: 18.402344, y: 4.7611084}
+        - {x: 15.402344, y: 20.761108}
+    - name: Rapier_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1153
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_109
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1153
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_110
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1153
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1153
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1153
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.914703, y: 26.219482}
+        - {x: -17.914703, y: 10.219482}
+        - {x: -17.914703, y: -24.780518}
+        - {x: 17.085297, y: -24.780518}
+        - {x: 19.085297, y: -22.780518}
+        - {x: 19.085297, y: 10.219482}
+        - {x: 8.085297, y: 26.219482}
+    - name: Rapier_113
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1153
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.157562, y: 26.219482}
+        - {x: -13.842438, y: 26.219482}
+        - {x: -18.842438, y: 21.219482}
+        - {x: -19.842438, y: 13.219482}
+        - {x: -19.842438, y: -24.780518}
+        - {x: 12.157562, y: -24.780518}
+        - {x: 21.157562, y: -14.780518}
+        - {x: 21.157562, y: 13.219482}
+    - name: Rapier_114
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1089
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1089
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_117
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1089
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.574219, y: 25.677734}
+        - {x: -9.425781, y: 25.677734}
+        - {x: -16.425781, y: 22.677734}
+        - {x: -17.425781, y: 17.677734}
+        - {x: -17.425781, y: -19.322266}
+        - {x: -14.425781, y: -24.322266}
+        - {x: 13.574219, y: -24.322266}
+        - {x: 18.574219, y: -18.322266}
+        - {x: 18.574219, y: 18.677734}
+        - {x: 17.574219, y: 21.677734}
+    - name: Rapier_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1089
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.414703, y: 25.677734}
+        - {x: -17.414703, y: 21.677734}
+        - {x: -18.414703, y: 17.677734}
+        - {x: -18.414703, y: -19.322266}
+        - {x: -15.414703, y: -24.322266}
+        - {x: 9.585297, y: -24.322266}
+        - {x: 19.585297, y: -2.3222656}
+        - {x: 19.585297, y: 14.677734}
+        - {x: 10.585297, y: 25.677734}
+    - name: Rapier_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1089
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.873047, y: 25.677734}
+        - {x: -15.873047, y: 21.677734}
+        - {x: -16.873047, y: 17.677734}
+        - {x: -16.873047, y: -19.322266}
+        - {x: -13.873047, y: -24.322266}
+        - {x: 9.126953, y: -24.322266}
+        - {x: 18.126953, y: -4.3222656}
+        - {x: 18.126953, y: 19.677734}
+        - {x: 12.126953, y: 25.677734}
+    - name: Rapier_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1025
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_121
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1023
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_122
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_123
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_124
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1023
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1023
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_129
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_130
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_131
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_132
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_133
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 961
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 961
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_135
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 961
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.654953, y: 25.594421}
+        - {x: -6.345047, y: 25.594421}
+        - {x: -12.345047, y: 23.594421}
+        - {x: -16.345047, y: 7.5944214}
+        - {x: -16.345047, y: -13.405579}
+        - {x: -7.345047, y: -24.405579}
+        - {x: 11.654953, y: -24.405579}
+        - {x: 17.654953, y: -15.405579}
+        - {x: 17.654953, y: 21.594421}
+    - name: Rapier_136
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 961
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.7421875, y: 25.594421}
+        - {x: -17.742188, y: 18.594421}
+        - {x: -17.742188, y: -17.405579}
+        - {x: -12.7421875, y: -24.405579}
+        - {x: 14.2578125, y: -24.405579}
+        - {x: 19.257812, y: -13.405579}
+        - {x: 19.257812, y: 12.594421}
+        - {x: 16.257812, y: 25.594421}
+    - name: Rapier_137
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 961
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.7005005, y: 25.594421}
+        - {x: -11.7005005, y: 23.594421}
+        - {x: -17.7005, y: 7.5944214}
+        - {x: -17.7005, y: -7.4055786}
+        - {x: -9.7005005, y: -22.405579}
+        - {x: -4.7005005, y: -24.405579}
+        - {x: 19.2995, y: -24.405579}
+        - {x: 19.2995, y: 19.594421}
+        - {x: 14.2994995, y: 25.594421}
+    - name: Rapier_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.128235, y: 25.594421}
+        - {x: -16.128235, y: 11.594421}
+        - {x: -16.128235, y: -2.4055786}
+        - {x: -6.128235, y: -22.405579}
+        - {x: -1.1282349, y: -24.405579}
+        - {x: 17.871765, y: -24.405579}
+        - {x: 17.871765, y: 24.594421}
+        - {x: 13.871765, y: 25.594421}
+    - name: Rapier_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.0865784, y: 25.594421}
+        - {x: -17.086578, y: 19.594421}
+        - {x: -17.086578, y: -16.405579}
+        - {x: -14.086578, y: -24.405579}
+        - {x: 17.913422, y: -24.405579}
+        - {x: 18.913422, y: -21.405579}
+        - {x: 18.913422, y: 21.594421}
+        - {x: 15.913422, y: 25.594421}
+    - name: Rapier_140
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 961
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.0755005, y: 25.594421}
+        - {x: -18.0755, y: 16.594421}
+        - {x: -18.0755, y: -12.405579}
+        - {x: -14.0755005, y: -24.405579}
+        - {x: 16.9245, y: -24.405579}
+        - {x: 19.9245, y: -18.405579}
+        - {x: 19.9245, y: 21.594421}
+        - {x: 17.9245, y: 25.594421}
+    - name: Rapier_141
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 961
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.033844, y: 25.594421}
+        - {x: -19.033844, y: 20.594421}
+        - {x: -19.033844, y: -16.405579}
+        - {x: -16.033844, y: -24.405579}
+        - {x: 15.966156, y: -24.405579}
+        - {x: 20.966156, y: -12.405579}
+        - {x: 20.966156, y: 25.594421}
+    - name: Rapier_142
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.022766, y: 25.594421}
+        - {x: -17.022766, y: 16.594421}
+        - {x: -17.022766, y: -24.405579}
+        - {x: 15.977234, y: -24.405579}
+        - {x: 18.977234, y: -10.405579}
+        - {x: 18.977234, y: 23.594421}
+        - {x: 12.977234, y: 25.594421}
+    - name: Rapier_143
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.4505005, y: 25.594421}
+        - {x: -17.4505, y: 9.594421}
+        - {x: -17.4505, y: -6.4055786}
+        - {x: -10.4505005, y: -22.405579}
+        - {x: -3.4505005, y: -24.405579}
+        - {x: 16.5495, y: -24.405579}
+        - {x: 17.5495, y: -19.405579}
+        - {x: 17.5495, y: 22.594421}
+        - {x: 11.5494995, y: 25.594421}
+    - name: Rapier_144
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 961
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_145
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 961
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.8671875, y: 25.594421}
+        - {x: -17.867188, y: 19.594421}
+        - {x: -17.867188, y: -21.405579}
+        - {x: -16.867188, y: -24.405579}
+        - {x: 18.132812, y: -24.405579}
+        - {x: 18.132812, y: 17.594421}
+        - {x: 14.1328125, y: 25.594421}
+    - name: Rapier_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 897
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 898
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 898
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_150
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 897
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_151
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 897
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 897
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_155
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 897
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_157
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 897
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 897
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_160
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 833
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 833
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.40625, y: 25.011108}
+        - {x: -16.40625, y: 23.011108}
+        - {x: -16.40625, y: -16.988892}
+        - {x: -13.40625, y: -23.988892}
+        - {x: 10.59375, y: -23.988892}
+        - {x: 12.59375, y: -22.988892}
+        - {x: 17.59375, y: -10.988892}
+        - {x: 17.59375, y: 7.0111084}
+        - {x: 8.59375, y: 25.011108}
+    - name: Rapier_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.833984, y: 25.011108}
+        - {x: -17.833984, y: 24.011108}
+        - {x: -17.833984, y: -13.988892}
+        - {x: -14.833984, y: -22.988892}
+        - {x: -13.833984, y: -23.988892}
+        - {x: 6.1660156, y: -23.988892}
+        - {x: 12.166016, y: -22.988892}
+        - {x: 19.166016, y: -8.988892}
+        - {x: 19.166016, y: 9.011108}
+        - {x: 8.166016, y: 25.011108}
+    - name: Rapier_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 833
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.792297, y: -23.988892}
+        - {x: 14.207703, y: -23.988892}
+        - {x: 19.207703, y: -20.988892}
+        - {x: 19.207703, y: 16.011108}
+        - {x: 15.207703, y: 23.011108}
+        - {x: 10.207703, y: 25.011108}
+        - {x: -13.792297, y: 25.011108}
+        - {x: -17.792297, y: 12.011108}
+    - name: Rapier_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 833
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.373047, y: 25.011108}
+        - {x: -16.373047, y: 23.011108}
+        - {x: -16.373047, y: -23.988892}
+        - {x: 4.626953, y: -23.988892}
+        - {x: 8.626953, y: -22.988892}
+        - {x: 17.626953, y: -3.9888916}
+        - {x: 17.626953, y: 15.011108}
+        - {x: 8.626953, y: 25.011108}
+    - name: Rapier_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 833
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.270172, y: 25.011108}
+        - {x: -17.270172, y: 23.011108}
+        - {x: -17.270172, y: -14.988892}
+        - {x: -15.270172, y: -23.988892}
+        - {x: 14.729828, y: -23.988892}
+        - {x: 18.729828, y: -22.988892}
+        - {x: 18.729828, y: 25.011108}
+    - name: Rapier_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 833
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.8632812, y: 25.011108}
+        - {x: -12.136719, y: 25.011108}
+        - {x: -18.136719, y: 14.011108}
+        - {x: -18.136719, y: -10.988892}
+        - {x: -14.136719, y: -23.988892}
+        - {x: 4.8632812, y: -23.988892}
+        - {x: 8.863281, y: -22.988892}
+        - {x: 10.863281, y: -20.988892}
+        - {x: 19.863281, y: -1.9888916}
+        - {x: 19.863281, y: 14.011108}
+    - name: Rapier_167
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 833
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.966156, y: 11.011108}
+        - {x: 8.966156, y: 25.011108}
+        - {x: -11.033844, y: 25.011108}
+        - {x: -19.033844, y: 18.011108}
+        - {x: -19.033844, y: -14.988892}
+        - {x: -15.033844, y: -23.988892}
+        - {x: 7.966156, y: -23.988892}
+        - {x: 9.966156, y: -22.988892}
+        - {x: 11.966156, y: -20.988892}
+        - {x: 11.966156, y: -16.988892}
+        - {x: 20.966156, y: -2.9888916}
+    - name: Rapier_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 833
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.583984, y: 25.011108}
+        - {x: -17.583984, y: -23.988892}
+        - {x: 12.416016, y: -23.988892}
+        - {x: 19.416016, y: -8.988892}
+        - {x: 19.416016, y: 14.011108}
+        - {x: 7.4160156, y: 25.011108}
+    - name: Rapier_169
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 833
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.927124, y: 25.011108}
+        - {x: -11.072876, y: 25.011108}
+        - {x: -17.072876, y: 21.011108}
+        - {x: -17.072876, y: -20.988892}
+        - {x: -15.072876, y: -23.988892}
+        - {x: 2.927124, y: -23.988892}
+        - {x: 11.927124, y: -21.988892}
+        - {x: 18.927124, y: -2.9888916}
+        - {x: 18.927124, y: 11.011108}
+    - name: Rapier_170
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 833
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_171
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 833
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.520142, y: 25.011108}
+        - {x: -16.520142, y: 24.011108}
+        - {x: -16.520142, y: -20.988892}
+        - {x: -15.520142, y: -23.988892}
+        - {x: 8.479858, y: -23.988892}
+        - {x: 12.479858, y: -22.988892}
+        - {x: 18.479858, y: -3.9888916}
+        - {x: 18.479858, y: 12.011108}
+        - {x: 9.479858, y: 25.011108}
+    - name: Rapier_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 769
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_174
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 769
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_175
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 770
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_176
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 770
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 767
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.688171, y: 15.53064}
+        - {x: 16.688171, y: 19.53064}
+        - {x: -17.311829, y: 19.53064}
+        - {x: -17.311829, y: -17.46936}
+        - {x: -9.311829, y: -18.46936}
+        - {x: 8.688171, y: -18.46936}
+        - {x: 16.688171, y: -15.46936}
+        - {x: 18.688171, y: -14.46936}
+    - name: Rapier_178
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 641
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.203125, y: 24.886108}
+        - {x: -19.203125, y: 15.886108}
+        - {x: -19.203125, y: -4.1138916}
+        - {x: -12.203125, y: -23.113892}
+        - {x: -11.203125, y: -24.113892}
+        - {x: 20.796875, y: -24.113892}
+        - {x: 20.796875, y: 17.886108}
+        - {x: 16.796875, y: 24.886108}
+    - name: Rapier_179
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 640
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.8027344, y: -24.083313}
+        - {x: 23.197266, y: -24.083313}
+        - {x: 23.197266, y: 24.916687}
+        - {x: -5.8027344, y: 24.916687}
+        - {x: -22.802734, y: 11.916687}
+        - {x: -22.802734, y: -13.083313}
+    - name: Rapier_180
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 640
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.738922, y: 24.916687}
+        - {x: -21.738922, y: -9.083313}
+        - {x: -21.738922, y: -17.083313}
+        - {x: -20.738922, y: -18.083313}
+        - {x: -17.738922, y: -18.083313}
+        - {x: -2.738922, y: -24.083313}
+        - {x: 22.261078, y: -24.083313}
+        - {x: 22.261078, y: 8.916687}
+        - {x: 20.261078, y: 24.916687}
+    - name: Rapier_181
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 640
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.2161255, y: 25.416687}
+        - {x: -27.216125, y: 13.416687}
+        - {x: -28.216125, y: 7.416687}
+        - {x: -28.216125, y: -16.583313}
+        - {x: -12.2161255, y: -24.583313}
+        - {x: 29.783875, y: -24.583313}
+        - {x: 29.783875, y: 21.416687}
+        - {x: 24.783875, y: 25.416687}
+    - name: Rapier_182
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 640
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.091125, y: 17.416687}
+        - {x: -40.091125, y: -7.583313}
+        - {x: -36.091125, y: -7.583313}
+        - {x: -19.091125, y: 16.416687}
+        - {x: 3.9088745, y: 20.416687}
+        - {x: 14.9088745, y: 17.416687}
+        - {x: 8.9088745, y: 19.416687}
+        - {x: -3.0911255, y: 17.416687}
+        - {x: -9.0911255, y: 11.416687}
+        - {x: -19.091125, y: -33.583313}
+        - {x: 26.908875, y: -33.583313}
+        - {x: 41.908875, y: 20.416687}
+        - {x: 41.908875, y: 34.416687}
+        - {x: -14.0911255, y: 34.416687}
+        - {x: -37.091125, y: 30.416687}
+    - name: Rapier_183
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 640
+        width: 80
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.853516, y: 32.916687}
+        - {x: -31.853516, y: 30.916687}
+        - {x: -31.853516, y: 27.916687}
+        - {x: -30.853516, y: 24.916687}
+        - {x: -36.853516, y: 12.916687}
+        - {x: -38.853516, y: 0.916687}
+        - {x: -38.853516, y: -28.083313}
+        - {x: -37.853516, y: -32.083313}
+        - {x: 20.146484, y: -32.083313}
+        - {x: 39.146484, y: -8.083313}
+        - {x: 39.146484, y: 20.916687}
+        - {x: 12.146484, y: 32.916687}
+    - name: Rapier_184
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 449
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.213539, y: 24.761078}
+        - {x: -25.21354, y: 2.761078}
+        - {x: -25.21354, y: -24.238922}
+        - {x: 25.78646, y: -24.238922}
+        - {x: 25.78646, y: 24.761078}
+    - name: Rapier_185
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 449
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_186
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 449
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.740906, y: 24.761078}
+        - {x: -19.259094, y: 24.761078}
+        - {x: -19.259094, y: -24.238922}
+        - {x: 8.740906, y: -24.238922}
+        - {x: 20.740906, y: -3.238922}
+        - {x: 20.740906, y: 6.761078}
+    - name: Rapier_187
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 449
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.6412964, y: 24.761078}
+        - {x: -13.358704, y: 24.761078}
+        - {x: -17.358704, y: 19.761078}
+        - {x: -23.358704, y: -1.2389221}
+        - {x: -23.358704, y: -17.238922}
+        - {x: -13.358704, y: -24.238922}
+        - {x: 10.641296, y: -24.238922}
+        - {x: 23.641296, y: -8.238922}
+        - {x: 23.641296, y: 7.761078}
+        - {x: 11.641296, y: 23.761078}
+    - name: Rapier_188
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 449
+        width: 104
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.428345, y: 24.761078}
+        - {x: -50.428345, y: 18.761078}
+        - {x: -50.428345, y: -3.238922}
+        - {x: -21.428345, y: -14.238922}
+        - {x: 16.571655, y: -24.238922}
+        - {x: 44.571655, y: -24.238922}
+        - {x: 50.571655, y: -20.238922}
+        - {x: 50.571655, y: 13.761078}
+        - {x: 39.571655, y: 24.761078}
+    - name: Rapier_189
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 449
+        width: 71
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.46228, y: 24.761078}
+        - {x: -14.53772, y: 24.761078}
+        - {x: -34.53772, y: 20.761078}
+        - {x: -34.53772, y: 12.761078}
+        - {x: -15.53772, y: 4.761078}
+        - {x: 8.46228, y: -24.238922}
+        - {x: 32.46228, y: -24.238922}
+        - {x: 35.46228, y: -15.238922}
+        - {x: 35.46228, y: 17.761078}
+        - {x: 34.46228, y: 22.761078}
+    - name: Rapier_190
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 256
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.73568, y: 25.666672}
+        - {x: -9.26432, y: 25.666672}
+        - {x: -17.26432, y: 23.666672}
+        - {x: -18.26432, y: 16.666672}
+        - {x: -18.26432, y: -25.333328}
+        - {x: 17.73568, y: -25.333328}
+        - {x: 19.73568, y: -22.333328}
+        - {x: 19.73568, y: 16.666672}
+        - {x: 18.73568, y: 18.666672}
+    - name: Rapier_191
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 257
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.258469, y: 25.136078}
+        - {x: 3.2584686, y: 25.136078}
+        - {x: -3.7415314, y: 19.136078}
+        - {x: -23.741531, y: 0.13607788}
+        - {x: -23.741531, y: -17.863922}
+        - {x: -7.7415314, y: -24.863922}
+        - {x: 24.258469, y: -24.863922}
+        - {x: 24.258469, y: 12.136078}
+        - {x: 23.258469, y: 20.136078}
+    - name: Rapier_192
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 257
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.738922, y: 24.136078}
+        - {x: -21.738922, y: 5.136078}
+        - {x: -13.738922, y: -23.863922}
+        - {x: 22.261078, y: -23.863922}
+        - {x: 22.261078, y: 15.136078}
+        - {x: 19.261078, y: 24.136078}
+    - name: Rapier_193
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 257
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.991516, y: 24.636078}
+        - {x: -23.991516, y: 17.636078}
+        - {x: -23.991516, y: -12.363922}
+        - {x: -2.991516, y: -24.363922}
+        - {x: 25.008484, y: -24.363922}
+        - {x: 25.008484, y: 24.636078}
+    - name: Rapier_194
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 238
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.0911255, y: -13.782547}
+        - {x: -9.0911255, y: -16.782547}
+        - {x: 7.9088745, y: -17.782547}
+        - {x: 15.9088745, y: -14.782547}
+        - {x: 19.908875, y: -12.782547}
+        - {x: 12.9088745, y: -16.782547}
+        - {x: -7.0911255, y: -18.782547}
+        - {x: -36.091125, y: 7.217453}
+        - {x: -40.091125, y: 8.217453}
+        - {x: -40.091125, y: -26.782547}
+        - {x: -22.091125, y: -33.782547}
+        - {x: 41.908875, y: -33.782547}
+        - {x: 41.908875, y: -0.782547}
+        - {x: 39.908875, y: 11.217453}
+        - {x: 16.908875, y: 35.217453}
+        - {x: -2.0911255, y: 35.217453}
+        - {x: -11.0911255, y: 31.217453}
+    - name: Rapier_195
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 241
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.3840942, y: 33.625656}
+        - {x: -30.384094, y: 33.625656}
+        - {x: -38.384094, y: 29.625656}
+        - {x: -38.384094, y: -16.374344}
+        - {x: -28.384094, y: -20.374344}
+        - {x: -9.384094, y: -21.374344}
+        - {x: -31.384094, y: -24.374344}
+        - {x: -33.384094, y: -26.374344}
+        - {x: -32.384094, y: -32.374344}
+        - {x: 19.615906, y: -32.374344}
+        - {x: 30.615906, y: -30.374344}
+        - {x: 38.615906, y: -12.374344}
+        - {x: 38.615906, y: 14.625656}
+    - name: Rapier_196
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 65
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.929688, y: -21.48893}
+        - {x: 23.929688, y: -18.48893}
+        - {x: 0.9296875, y: 24.51107}
+        - {x: -25.070312, y: 24.51107}
+        - {x: -25.070312, y: -18.48893}
+        - {x: -22.070312, y: -24.48893}
+        - {x: -2.0703125, y: -24.48893}
+        - {x: -0.0703125, y: -23.48893}
+        - {x: 9.9296875, y: -24.48893}
+        - {x: 25.929688, y: -24.48893}
+    - name: Rapier_197
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 65
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rapier_198
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 65
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.391907, y: 24.51107}
+        - {x: -19.391907, y: 17.51107}
+        - {x: -19.391907, y: -3.4889297}
+        - {x: -9.391907, y: -24.48893}
+        - {x: 19.608093, y: -24.48893}
+        - {x: 19.608093, y: 23.51107}
+        - {x: 18.608093, y: 24.51107}
+    - name: Rapier_199
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 65
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.2974854, y: 24.51107}
+        - {x: -8.297485, y: 19.51107}
+        - {x: -23.297485, y: 11.51107}
+        - {x: -23.297485, y: -10.48893}
+        - {x: -16.297485, y: -24.48893}
+        - {x: 20.702515, y: -24.48893}
+        - {x: 23.702515, y: -16.48893}
+        - {x: 23.702515, y: 9.51107}
+        - {x: 15.702515, y: 24.51107}
+    - name: Rapier_200
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 65
+        width: 104
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.235718, y: 12.51107}
+        - {x: 31.235718, y: 24.51107}
+        - {x: -47.764282, y: 24.51107}
+        - {x: -50.764282, y: 21.51107}
+        - {x: -50.764282, y: -23.48893}
+        - {x: -49.764282, y: -24.48893}
+        - {x: -15.764282, y: -24.48893}
+        - {x: -13.764282, y: -23.48893}
+        - {x: 50.235718, y: -7.4889297}
+        - {x: 51.235718, y: -6.4889297}
+    - name: Rapier_201
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 65
+        width: 71
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.414673, y: 24.51107}
+        - {x: -33.414673, y: 20.51107}
+        - {x: -34.414673, y: 13.51107}
+        - {x: -34.414673, y: -20.48893}
+        - {x: -32.414673, y: -24.48893}
+        - {x: -6.414673, y: -24.48893}
+        - {x: 34.585327, y: 10.51107}
+        - {x: 34.585327, y: 20.51107}
+        - {x: 6.585327, y: 24.51107}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

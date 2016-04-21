@@ -19,6 +19,12 @@ TagManager:
   - CustomerController
   - UIController
   - UI
+  - ShowCase
+  - enemy
+  - particle
+  - Bag
+  - weaponStorageUI
+  - Boarder
   layers:
   - Default
   - TransparentFX
@@ -58,6 +64,18 @@ TagManager:
     locked: 0
   - name: Back
     uniqueID: 824855449
+    locked: 0
+  - name: decoration
+    uniqueID: 753552187
+    locked: 0
+  - name: decoration1
+    uniqueID: 1477100885
+    locked: 0
+  - name: Boarder
+    uniqueID: 3733996483
+    locked: 0
+  - name: Door
+    uniqueID: 3735382995
     locked: 0
   - name: Character
     uniqueID: 2124483165

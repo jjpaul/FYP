@@ -19,7 +19,7 @@ public class WeaponStorage : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
+        
         if (UIReady && Input.GetMouseButtonDown(0))
         {
             panel.SetActive(true);

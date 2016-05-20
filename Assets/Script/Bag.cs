@@ -39,6 +39,11 @@ public class Bag : MonoBehaviour {
                 slotamount++;
             }
         }
+
+        for (int i = 201; i < 203; i++)
+        {
+            addItem(i);
+        }
     }
 	
 	// Update is called once per frame
@@ -49,12 +54,30 @@ public class Bag : MonoBehaviour {
             if (IM.itemID[i] != 0)
             {
                 Debug.Log("add4!");
-                addItem(IM.itemID[i]);
+                addItem(IM.itemID[i]);  
                 IM.itemID[i] = 0;
                 break;
             }
         }
 	}
+
+    public void chkItemExist(int itemID, Item item)
+    {
+        for (int i = 0; i < Items.Count; i++)
+        {
+            if (Items[i].itemID == itemID)
+            {
+                Items[i].itemValue = Items[i].itemValue + 1;
+            //    database.items[i].itemValue++;
+                break;
+            }
+            else if (i == Items.Count - 1)
+            {
+           //     database.items[i].itemValue++;
+                addEmptySlot(item);
+            }
+        }
+    }
 
     public void addItem(int id)
     {
@@ -63,7 +86,17 @@ public class Bag : MonoBehaviour {
             if(database.items[i].itemID == id)
             {
                 Item item = database.items[i];
-                addEmptySlot(item);
+                if(database.items[i].itemDiscv != true)
+                {
+                    database.items[i].itemDiscv = true;
+                }
+                chkItemExist(id, item);
+                if (database.items[i].itemValue < 1)
+                {
+                    database.items[i].itemValue++;
+                }
+               // addEmptySlot(item);
+
             }
         }
     }

@@ -26,6 +26,8 @@ TagManager:
   - weaponStorageUI
   - Boarder
   - IM
+  - ItemInventory
+  - buyInfo
   layers:
   - Default
   - TransparentFX

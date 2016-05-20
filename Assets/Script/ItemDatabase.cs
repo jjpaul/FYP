@@ -35,11 +35,16 @@ public class ItemDatabase : MonoBehaviour {
         
         //Weapon
         items.Add(new Item("Weapon_1", 201, "weapon one for testing", 10, 1, Item.ItemType.Weapon, true, 200));
-        items.Add(new Item("Weapon_2", 202, "weapon two for testing", 10, 1, Item.ItemType.Weapon, true, 200));
-        items.Add(new Item("Weapon_2", 203, "weapon two for testing", 10, 1, Item.ItemType.Weapon, true, 200));
+        items.Add(new Item("Weapon_2", 202, "weapon two for testing", 10, 1, Item.ItemType.Weapon, true, 500));
+        items.Add(new Item("Weapon_3", 203, "weapon two for testing", 10, 0, Item.ItemType.Weapon, true, 1200));
+        items.Add(new Item("Weapon_4", 204, "weapon two for testing", 10, 0, Item.ItemType.Weapon, true, 3000));
+        items.Add(new Item("Weapon_5", 205, "weapon two for testing", 10, 0, Item.ItemType.Weapon, true, 5600));
+        items.Add(new Item("Weapon_6", 206, "weapon two for testing", 10, 0, Item.ItemType.Weapon, true, 8000));
+        items.Add(new Item("Weapon_7", 207, "weapon two for testing", 10, 0, Item.ItemType.Weapon, true, 9999));
 
         //Consumable    
-
+        items.Add(new Item("consumable_1", 301, "Medicine for HP recovery", 0, 0, Item.ItemType.Consumable, true, 250));
+        items.Add(new Item("consumable_2", 302, "Medicine for AP recovery", 0, 0, Item.ItemType.Consumable, true, 300));
     }
 
     void Awake()

@@ -1,0 +1,1097 @@
+fileFormatVersion: 2
+guid: 6dbbaee1856e0c3478ebf32db26a52b8
+timeCreated: 1463676369
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: itemstore_0
+    21300002: itemstore_1
+    21300004: itemstore_2
+    21300006: itemstore_3
+    21300008: itemstore_4
+    21300010: itemstore_5
+    21300012: itemstore_6
+    21300014: itemstore_7
+    21300016: itemstore_8
+    21300018: itemstore_9
+    21300020: itemstore_10
+    21300022: itemstore_11
+    21300024: itemstore_12
+    21300026: itemstore_13
+    21300028: itemstore_14
+    21300030: itemstore_15
+    21300032: itemstore_16
+    21300034: itemstore_17
+    21300036: itemstore_18
+    21300038: itemstore_19
+    21300040: itemstore_20
+    21300042: itemstore_21
+    21300044: itemstore_22
+    21300046: itemstore_23
+    21300048: itemstore_24
+    21300050: itemstore_25
+    21300052: itemstore_26
+    21300054: itemstore_27
+    21300056: itemstore_28
+    21300058: itemstore_29
+    21300060: itemstore_30
+    21300062: itemstore_31
+    21300064: itemstore_32
+    21300066: itemstore_33
+    21300068: itemstore_34
+    21300070: itemstore_35
+    21300072: itemstore_36
+    21300074: itemstore_37
+    21300076: itemstore_38
+    21300078: itemstore_39
+    21300080: itemstore_40
+    21300082: itemstore_41
+    21300084: itemstore_42
+    21300086: itemstore_43
+    21300088: itemstore_44
+    21300090: itemstore_45
+    21300092: itemstore_46
+    21300094: itemstore_47
+    21300096: itemstore_48
+    21300098: itemstore_49
+    21300100: itemstore_50
+    21300102: itemstore_51
+    21300104: itemstore_52
+    21300106: itemstore_53
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: itemstore_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 320
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -22}
+        - {x: 11, y: -27}
+        - {x: 13, y: -29}
+        - {x: 18, y: -29}
+        - {x: 22, y: -25}
+        - {x: 23, y: -22}
+        - {x: 23, y: 21}
+        - {x: 17, y: 30}
+        - {x: -23, y: 30}
+        - {x: -23, y: -30}
+        - {x: 10, y: -30}
+        - {x: 11, y: -29}
+    - name: itemstore_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 320
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -27.5}
+        - {x: 12, y: -29.5}
+        - {x: 23, y: -29.5}
+        - {x: 23, y: 25.5}
+        - {x: 12, y: 29.5}
+        - {x: -22, y: 29.5}
+        - {x: -23, y: 27.5}
+        - {x: -23, y: -29.5}
+        - {x: 10, y: -29.5}
+        - {x: 11, y: -28.5}
+        - {x: 11, y: -24.5}
+    - name: itemstore_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 320
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -29}
+        - {x: 23, y: -29}
+        - {x: 23, y: 26}
+        - {x: 19, y: 29}
+        - {x: -23, y: 29}
+        - {x: -23, y: -29}
+        - {x: 11, y: -29}
+        - {x: 11, y: -24}
+        - {x: 11, y: -28}
+    - name: itemstore_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 320
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30}
+        - {x: -23, y: -30}
+        - {x: 23, y: -30}
+        - {x: 23, y: 30}
+    - name: itemstore_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 320
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 29}
+        - {x: -27.5, y: 13}
+        - {x: -27.5, y: -21}
+        - {x: -22.5, y: -29}
+        - {x: 27.5, y: -29}
+        - {x: 27.5, y: 19}
+        - {x: 17.5, y: 29}
+    - name: itemstore_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 320
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 29}
+        - {x: -27.5, y: 13}
+        - {x: -27.5, y: -21}
+        - {x: -22.5, y: -29}
+        - {x: 27.5, y: -29}
+        - {x: 27.5, y: 19}
+        - {x: 17.5, y: 29}
+    - name: itemstore_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 320
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 30}
+        - {x: -21.5, y: 29}
+        - {x: -25.5, y: 15}
+        - {x: -25.5, y: 14}
+        - {x: -23.5, y: 2}
+        - {x: -20.5, y: 1}
+        - {x: -25.5, y: -4}
+        - {x: -25.5, y: -27}
+        - {x: -17.5, y: -30}
+        - {x: 23.5, y: -30}
+        - {x: 25.5, y: -25}
+        - {x: 25.5, y: 26}
+        - {x: 21.5, y: 30}
+    - name: itemstore_7
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 320
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 30}
+        - {x: -21.5, y: 29}
+        - {x: -25.5, y: 15}
+        - {x: -25.5, y: 14}
+        - {x: -23.5, y: 2}
+        - {x: -20.5, y: 1}
+        - {x: -25.5, y: -4}
+        - {x: -25.5, y: -27}
+        - {x: -17.5, y: -30}
+        - {x: 23.5, y: -30}
+        - {x: 25.5, y: -25}
+        - {x: 25.5, y: 26}
+        - {x: 21.5, y: 30}
+    - name: itemstore_8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 320
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 30}
+        - {x: -21.5, y: 29}
+        - {x: -25.5, y: 15}
+        - {x: -25.5, y: 14}
+        - {x: -23.5, y: 2}
+        - {x: -20.5, y: 1}
+        - {x: -25.5, y: -4}
+        - {x: -25.5, y: -27}
+        - {x: -17.5, y: -30}
+        - {x: 23.5, y: -30}
+        - {x: 25.5, y: -25}
+        - {x: 25.5, y: 26}
+        - {x: 21.5, y: 30}
+    - name: itemstore_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 256
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 29}
+        - {x: -23, y: 27}
+        - {x: -23, y: -29}
+        - {x: 23, y: -29}
+        - {x: 23, y: 24}
+        - {x: 12, y: 29}
+    - name: itemstore_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 256
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 29}
+        - {x: -23, y: 27}
+        - {x: -23, y: -29}
+        - {x: 23, y: -29}
+        - {x: 23, y: 24}
+        - {x: 12, y: 29}
+    - name: itemstore_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 256
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 29}
+        - {x: -23, y: 27}
+        - {x: -23, y: -29}
+        - {x: 23, y: -29}
+        - {x: 23, y: 24}
+        - {x: 12, y: 29}
+    - name: itemstore_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 256
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 26.5}
+        - {x: 15, y: 29.5}
+        - {x: -23, y: 29.5}
+        - {x: -23, y: -29.5}
+        - {x: 23, y: -29.5}
+    - name: itemstore_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 256
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 29}
+        - {x: -24, y: 29}
+        - {x: -24, y: -29}
+        - {x: 24, y: -29}
+        - {x: 24, y: 27}
+    - name: itemstore_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 256
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 29}
+        - {x: -24, y: 29}
+        - {x: -24, y: -29}
+        - {x: 24, y: -29}
+        - {x: 24, y: 27}
+    - name: itemstore_15
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 256
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 29.5}
+        - {x: -23, y: -29.5}
+        - {x: 23, y: -29.5}
+        - {x: 23, y: 25.5}
+        - {x: 12, y: 29.5}
+    - name: itemstore_16
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 257
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 29.5}
+        - {x: -24.5, y: 27.5}
+        - {x: -24.5, y: -27.5}
+        - {x: -15.5, y: -29.5}
+        - {x: 23.5, y: -29.5}
+        - {x: 24.5, y: -28.5}
+        - {x: 24.5, y: 24.5}
+        - {x: 21.5, y: 29.5}
+    - name: itemstore_17
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 258
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 29.5}
+        - {x: -24.5, y: 27.5}
+        - {x: -24.5, y: -27.5}
+        - {x: -15.5, y: -29.5}
+        - {x: 23.5, y: -29.5}
+        - {x: 24.5, y: -28.5}
+        - {x: 24.5, y: 24.5}
+        - {x: 21.5, y: 29.5}
+    - name: itemstore_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 192
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -30}
+        - {x: 15, y: -30}
+        - {x: 23, y: -27}
+        - {x: 23, y: 28}
+        - {x: 20, y: 30}
+        - {x: -23, y: 30}
+        - {x: -23, y: -27}
+        - {x: -19, y: -30}
+        - {x: 11, y: -30}
+        - {x: 11, y: -25}
+    - name: itemstore_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 192
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -30}
+        - {x: 15, y: -30}
+        - {x: 23, y: -27}
+        - {x: 23, y: 28}
+        - {x: 20, y: 30}
+        - {x: -23, y: 30}
+        - {x: -23, y: -27}
+        - {x: -19, y: -30}
+        - {x: 11, y: -30}
+        - {x: 11, y: -25}
+    - name: itemstore_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 192
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -30}
+        - {x: 15, y: -30}
+        - {x: 23, y: -27}
+        - {x: 23, y: 28}
+        - {x: 20, y: 30}
+        - {x: -23, y: 30}
+        - {x: -23, y: -27}
+        - {x: -19, y: -30}
+        - {x: 11, y: -30}
+        - {x: 11, y: -25}
+    - name: itemstore_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 192
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -29.5}
+        - {x: 23, y: 21.5}
+        - {x: 15, y: 29.5}
+        - {x: -18, y: 29.5}
+        - {x: -23, y: 28.5}
+        - {x: -23, y: -29.5}
+        - {x: 12, y: -29.5}
+        - {x: 11, y: -24.5}
+        - {x: 13, y: -29.5}
+    - name: itemstore_22
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 192
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 29.5}
+        - {x: -23, y: -29.5}
+        - {x: 23, y: -29.5}
+        - {x: 23, y: 20.5}
+        - {x: 17, y: 29.5}
+    - name: itemstore_23
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 192
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 29.5}
+        - {x: -23, y: -29.5}
+        - {x: 23, y: -29.5}
+        - {x: 23, y: 20.5}
+        - {x: 17, y: 29.5}
+    - name: itemstore_24
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 192
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -21.5, y: -27}
+        - {x: -20.5, y: -28}
+        - {x: 23.5, y: -28}
+        - {x: 23.5, y: 23}
+        - {x: 19.5, y: 28}
+    - name: itemstore_25
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 192
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -21.5, y: -27}
+        - {x: -20.5, y: -28}
+        - {x: 23.5, y: -28}
+        - {x: 23.5, y: 23}
+        - {x: 19.5, y: 28}
+    - name: itemstore_26
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 192
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -21.5, y: -27}
+        - {x: -20.5, y: -28}
+        - {x: 23.5, y: -28}
+        - {x: 23.5, y: 23}
+        - {x: 19.5, y: 28}
+    - name: itemstore_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 29}
+        - {x: -23, y: 29}
+        - {x: -23, y: -29}
+        - {x: 21, y: -29}
+        - {x: 23, y: -24}
+        - {x: 23, y: 21}
+    - name: itemstore_28
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 128
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 29}
+        - {x: -23, y: 29}
+        - {x: -23, y: -29}
+        - {x: 21, y: -29}
+        - {x: 23, y: -24}
+        - {x: 23, y: 21}
+    - name: itemstore_29
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 128
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 29}
+        - {x: -23, y: 29}
+        - {x: -23, y: -29}
+        - {x: 21, y: -29}
+        - {x: 23, y: -24}
+        - {x: 23, y: 21}
+    - name: itemstore_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 128
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 29}
+        - {x: -23, y: 29}
+        - {x: -23, y: -29}
+        - {x: 21, y: -29}
+        - {x: 23, y: -24}
+        - {x: 23, y: 21}
+    - name: itemstore_31
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 128
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 30}
+        - {x: -19.5, y: 30}
+        - {x: -22.5, y: 29}
+        - {x: -23.5, y: 28}
+        - {x: -23.5, y: -29}
+        - {x: -21.5, y: -30}
+        - {x: 23.5, y: -30}
+        - {x: 23.5, y: 20}
+        - {x: 20.5, y: 24}
+    - name: itemstore_32
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 128
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 30}
+        - {x: -19.5, y: 30}
+        - {x: -22.5, y: 29}
+        - {x: -23.5, y: 28}
+        - {x: -23.5, y: -29}
+        - {x: -21.5, y: -30}
+        - {x: 23.5, y: -30}
+        - {x: 23.5, y: 20}
+        - {x: 20.5, y: 24}
+    - name: itemstore_33
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 128
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -21.5, y: -27}
+        - {x: -20.5, y: -28}
+        - {x: 23.5, y: -28}
+        - {x: 23.5, y: 23}
+        - {x: 19.5, y: 28}
+    - name: itemstore_34
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 128
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -21.5, y: -27}
+        - {x: -20.5, y: -28}
+        - {x: 23.5, y: -28}
+        - {x: 23.5, y: 23}
+        - {x: 19.5, y: 28}
+    - name: itemstore_35
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 128
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -21.5, y: -27}
+        - {x: -20.5, y: -28}
+        - {x: 23.5, y: -28}
+        - {x: 23.5, y: 23}
+        - {x: 19.5, y: 28}
+    - name: itemstore_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 64
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 28.5}
+        - {x: -24, y: 21.5}
+        - {x: -24, y: -28.5}
+        - {x: 24, y: -28.5}
+        - {x: 24, y: 20.5}
+        - {x: 13, y: 28.5}
+    - name: itemstore_37
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 64
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 28.5}
+        - {x: -24, y: 21.5}
+        - {x: -24, y: -28.5}
+        - {x: 24, y: -28.5}
+        - {x: 24, y: 20.5}
+        - {x: 13, y: 28.5}
+    - name: itemstore_38
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 64
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 28.5}
+        - {x: -24, y: 21.5}
+        - {x: -24, y: -28.5}
+        - {x: 24, y: -28.5}
+        - {x: 24, y: 20.5}
+        - {x: 13, y: 28.5}
+    - name: itemstore_39
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 64
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 30}
+        - {x: -20, y: 30}
+        - {x: -23, y: 27}
+        - {x: -23, y: 10}
+        - {x: -18, y: 0}
+        - {x: -22, y: -24}
+        - {x: -17, y: -30}
+        - {x: 21, y: -30}
+        - {x: 23, y: -27}
+        - {x: 23, y: 29}
+    - name: itemstore_40
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 64
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 30}
+        - {x: -23.5, y: 29}
+        - {x: -23.5, y: -30}
+        - {x: 23.5, y: -30}
+        - {x: 23.5, y: 29}
+        - {x: 20.5, y: 30}
+    - name: itemstore_41
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 64
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 30}
+        - {x: -23.5, y: 29}
+        - {x: -23.5, y: -30}
+        - {x: 23.5, y: -30}
+        - {x: 23.5, y: 29}
+        - {x: 20.5, y: 30}
+    - name: itemstore_42
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 64
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -21.5, y: -27}
+        - {x: -20.5, y: -28}
+        - {x: 23.5, y: -28}
+        - {x: 23.5, y: 23}
+        - {x: 19.5, y: 28}
+    - name: itemstore_43
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 64
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -21.5, y: -27}
+        - {x: -20.5, y: -28}
+        - {x: 23.5, y: -28}
+        - {x: 23.5, y: 23}
+        - {x: 19.5, y: 28}
+    - name: itemstore_44
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 64
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 28}
+        - {x: -23.5, y: -22}
+        - {x: -21.5, y: -27}
+        - {x: -20.5, y: -28}
+        - {x: 23.5, y: -28}
+        - {x: 23.5, y: 23}
+        - {x: 19.5, y: 28}
+    - name: itemstore_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 30}
+        - {x: -25.5, y: 28}
+        - {x: -25.5, y: -29}
+        - {x: -22.5, y: -30}
+        - {x: 21.5, y: -30}
+        - {x: 25.5, y: -26}
+        - {x: 25.5, y: 30}
+    - name: itemstore_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 30}
+        - {x: -25.5, y: 28}
+        - {x: -25.5, y: -29}
+        - {x: -22.5, y: -30}
+        - {x: 21.5, y: -30}
+        - {x: 25.5, y: -26}
+        - {x: 25.5, y: 30}
+    - name: itemstore_47
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 30}
+        - {x: -25.5, y: 28}
+        - {x: -25.5, y: -29}
+        - {x: -22.5, y: -30}
+        - {x: 21.5, y: -30}
+        - {x: 25.5, y: -26}
+        - {x: 25.5, y: 30}
+    - name: itemstore_48
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 30}
+        - {x: -23, y: -23}
+        - {x: -22, y: -30}
+        - {x: 23, y: -30}
+        - {x: 23, y: 21}
+        - {x: 16, y: 30}
+    - name: itemstore_49
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 30.5}
+        - {x: -24.5, y: -30.5}
+        - {x: 24.5, y: -30.5}
+        - {x: 24.5, y: 29.5}
+        - {x: 22.5, y: 30.5}
+    - name: itemstore_50
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 30.5}
+        - {x: -24.5, y: -30.5}
+        - {x: 24.5, y: -30.5}
+        - {x: 24.5, y: 29.5}
+        - {x: 22.5, y: 30.5}
+    - name: itemstore_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 18}
+        - {x: -31.5, y: 18}
+        - {x: -31.5, y: -18}
+        - {x: 30.5, y: -18}
+        - {x: 31.5, y: -16}
+        - {x: 31.5, y: -3}
+    - name: itemstore_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 18}
+        - {x: -31.5, y: 18}
+        - {x: -31.5, y: -18}
+        - {x: 30.5, y: -18}
+        - {x: 31.5, y: -16}
+        - {x: 31.5, y: -3}
+    - name: itemstore_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 18}
+        - {x: -31.5, y: 18}
+        - {x: -31.5, y: -18}
+        - {x: 30.5, y: -18}
+        - {x: 31.5, y: -16}
+        - {x: 31.5, y: -3}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

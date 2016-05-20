@@ -17,7 +17,7 @@ public class BagSlot : MonoBehaviour, IPointerDownHandler
     // Use this for initialization
     void Start ()
     {
-       // itemAmount = gameObject.transform.GetChild(1).GetComponent<Text>();
+        itemAmount = gameObject.transform.GetChild(1).GetComponent<Text>();
         bag = GameObject.FindGameObjectWithTag("Bag").GetComponent<Bag>();
         itemImage = gameObject.transform.GetChild(0).GetComponent<Image>();
         transform.GetChild(0).GetComponent<Image>().enabled = false;
@@ -32,14 +32,20 @@ public class BagSlot : MonoBehaviour, IPointerDownHandler
             item = bag.Items[slotNumber];
             itemImage.enabled = true;
             itemImage.sprite = bag.Items[slotNumber].itemIcon;
-         //   itemAmount.enabled = true;
-         //   itemAmount.text = "" + bag.Items[slotNumber].itemValue;
+            itemAmount.enabled = true;
+            itemAmount.text = "" + bag.Items[slotNumber].itemValue;
         }
-	}
+        if (bag.Items[slotNumber].itemValue == 0)
+        {
+            itemImage.enabled = false;
+            itemAmount.enabled = false;
+            this.item = new Item();
+            //    itemImage.sprite = inventory.Items[slotNumber].itemDefaultIcon;
+        }
+    }
 
     public void OnPointerDown(PointerEventData data)
     {
-        Debug.Log("555");
-        
+        Debug.Log("555");  
     }
 }

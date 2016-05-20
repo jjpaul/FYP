@@ -17,7 +17,7 @@ public class UIControll : MonoBehaviour {
     void Start()
     {
         character = GameObject.FindGameObjectWithTag("CharacterAttribute").GetComponent<CharacterAttributes>();
-   //     customer = GameObject.FindGameObjectWithTag("CustomerController").GetComponent<CustomerController>();
+        //     customer = GameObject.FindGameObjectWithTag("CustomerController").GetComponent<CustomerController>();
     }
 
     void Update()

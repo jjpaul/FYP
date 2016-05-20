@@ -53,7 +53,13 @@ public class CharacterController : MonoBehaviour {
             dodge();
             run();
             hurt();
-        }        
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            jump();
+            walk();
+        }
     }
 	
 	void FixedUpdate () {

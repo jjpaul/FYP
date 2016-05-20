@@ -4,6 +4,7 @@ using System.Collections;
 public class monsterMove : MonoBehaviour {
 
     private Animator animator;
+    public CharacterAttributes character;
     float speed = 3.0f;
     public int HP;
     public AttackParticle AP;
@@ -11,6 +12,7 @@ public class monsterMove : MonoBehaviour {
 
     ItemDatabase database;
     Item DroppedItem;
+    ItemManager IM;
     public int itemId;
 
 
@@ -18,10 +20,12 @@ public class monsterMove : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        character = GameObject.FindGameObjectWithTag("CharacterAttribute").GetComponent<CharacterAttributes>();
         database = GameObject.FindGameObjectWithTag("ItemDatabase").GetComponent<ItemDatabase>();
         AP = GameObject.FindGameObjectWithTag("Player").GetComponent<AttackParticle>();
+        IM = GameObject.FindGameObjectWithTag("IM").GetComponent<ItemManager>();
         animator = GetComponent<Animator>();
-        HP = 10;
+        HP = 1000;
     }
 	
 	// Update is called once per frame
@@ -48,7 +52,7 @@ public class monsterMove : MonoBehaviour {
     void chase()
     {
         animator.SetBool("walk", true);
-        if(Vector3.Distance(transform.position,player.position) <= 8)
+        if(Vector3.Distance(transform.position,player.position) <= 12 && player.position.y >= this.transform.position.y)
         {
             if (transform.position.x > player.position.x)
             {
@@ -67,7 +71,7 @@ public class monsterMove : MonoBehaviour {
     {
         if(col.gameObject.tag == "particle")
         {
-            HP--;
+            HP -= character.Att;
             Debug.Log(HP);
             if (!AP.left)
             {
@@ -78,6 +82,15 @@ public class monsterMove : MonoBehaviour {
                 transform.position += new Vector3(-2, 0.0f, 0.0f);
             }
             AP.destroyPf();
+        }
+
+        if(col.gameObject.tag == "Player")
+        {
+            if(HP <= 0)
+            {
+                IM.add(itemId);
+                Dead();
+            }
         }
     }
 

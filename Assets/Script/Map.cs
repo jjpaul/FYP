@@ -22,4 +22,9 @@ public class Map : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void toItemStoreScene()
+    {
+        SceneManager.LoadScene(4);
+    }
+
 }

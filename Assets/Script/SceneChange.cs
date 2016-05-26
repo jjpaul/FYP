@@ -14,12 +14,12 @@ public class SceneChange : MonoBehaviour {
     public void toMapScene()
     {
         UI.closeExitPanel();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 
     public void toEastScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     void Awake()

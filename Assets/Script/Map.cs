@@ -14,17 +14,17 @@ public class Map : MonoBehaviour
 
     public void toEastScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void toStoreScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void toItemStoreScene()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
 
 }

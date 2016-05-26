@@ -28,7 +28,7 @@ public class CharacterController : MonoBehaviour {
         animator = GetComponent<Animator>();
         character = GameObject.FindGameObjectWithTag("CharacterAttribute").GetComponent<CharacterAttributes>();
 
-        if (SceneManager.GetActiveScene().buildIndex == 0)
+        if (SceneManager.GetActiveScene().buildIndex == 1)
         {
             Flag = GameObject.FindGameObjectWithTag("Flag").GetComponent<FlagScript>();
             initPos = transform.position;
@@ -37,7 +37,7 @@ public class CharacterController : MonoBehaviour {
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 0)
+        if (SceneManager.GetActiveScene().buildIndex == 1)
         {
             if (Flag.IsOpen)
             {
@@ -45,7 +45,7 @@ public class CharacterController : MonoBehaviour {
             }
         }
 
-        if(SceneManager.GetActiveScene().buildIndex == 2)
+        if(SceneManager.GetActiveScene().buildIndex == 3)
         {
             jump();
             walk();
@@ -55,7 +55,7 @@ public class CharacterController : MonoBehaviour {
             hurt();
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 4)
+        if (SceneManager.GetActiveScene().buildIndex == 5)
         {
             jump();
             walk();
@@ -65,7 +65,7 @@ public class CharacterController : MonoBehaviour {
 	void FixedUpdate () {
 
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundradius, whatIsGround);
-        if (SceneManager.GetActiveScene().buildIndex == 0)
+        if (SceneManager.GetActiveScene().buildIndex == 1)
         {
             if (!Flag.IsOpen)
             {

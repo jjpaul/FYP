@@ -19,7 +19,7 @@ public class ForgingWorkDesk : MonoBehaviour {
         if (UIReady && Input.GetMouseButtonDown(0))
         {
             Debug.Log("forging UI");
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
             
         }
     }
